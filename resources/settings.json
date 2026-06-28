@@ -1,0 +1,42 @@
+{
+  "projects": [
+    {
+      "id": "ronbun",
+      "title": "JLPT Daily",
+      "subtitle": "Quan ly va doc bai hoc JLPT hang ngay",
+      "description": "Lesson-oriented reading space for daily JLPT study, notes, and imported materials.",
+      "repoName": "utils_learnJP_ronbun",
+      "githubRepo": "haiphamthanh/utils_learnJP_ronbun",
+      "repoUrl": "git@github.com:haiphamthanh/utils_learnJP_ronbun.git",
+      "branch": "master",
+      "host": "127.0.0.1",
+      "port": 3000,
+      "url": "http://127.0.0.1:3000/",
+      "resourceDir": "resources/utils_learnJP_ronbun",
+      "scripts": {
+        "start": "start.sh",
+        "stop": "stop.sh"
+      },
+      "tags": ["Daily lessons", "Structured reading", "Long-form study"]
+    },
+    {
+      "id": "kotoba",
+      "title": "Roadmap Words",
+      "subtitle": "Study the roadmap, one word at a time",
+      "description": "Fast vocabulary drills with one-word repetition, examples, and study activity tracking.",
+      "repoName": "utils_learnJP_kotoba",
+      "githubRepo": "haiphamthanh/utils_learnJP_kotoba",
+      "repoUrl": "git@github.com:haiphamthanh/utils_learnJP_kotoba.git",
+      "branch": "main",
+      "host": "127.0.0.1",
+      "port": 8000,
+      "url": "http://127.0.0.1:8000/",
+      "resourceDir": "resources/utils_learnJP_kotoba",
+      "scripts": {
+        "start": "start.sh",
+        "stop": "stop.sh"
+      },
+      "tags": ["Single-word drill", "Roadmap review", "Quick recall"]
+    }
+  ]
+}

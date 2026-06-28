@@ -10,111 +10,74 @@
     <div class="app-shell">
       <header class="hero-panel">
         <div class="hero-copy">
-          <p class="eyebrow">Daily Study Workspace</p>
+          <p class="eyebrow">Study Control Center</p>
           <h1>Learning Hub</h1>
           <p class="subtitle">
-            A single study surface for structured JLPT reading and rapid roadmap review,
-            designed to feel like one product instead of two localhost tabs.
+            One place to open, sync, and operate the two local Japanese learning
+            projects without treating them like scattered localhost tabs.
           </p>
           <div class="hero-metrics">
             <div class="metric-card">
-              <span class="metric-label">Active track</span>
-              <strong class="metric-value" id="activeTrackLabel">Loading</strong>
+              <span class="metric-label">Projects</span>
+              <strong class="metric-value" id="projectCountLabel">0</strong>
             </div>
             <div class="metric-card">
-              <span class="metric-label">Workspace mode</span>
-              <strong class="metric-value" id="viewModeLabel">Single view</strong>
+              <span class="metric-label">Hosts running</span>
+              <strong class="metric-value" id="runningCountLabel">0</strong>
             </div>
             <div class="metric-card">
-              <span class="metric-label">Today</span>
-              <strong class="metric-value" id="todayLabel">...</strong>
+              <span class="metric-label">Settings</span>
+              <strong class="metric-value" id="settingsPathLabel">resources/settings.json</strong>
             </div>
           </div>
         </div>
 
         <aside class="hero-side">
           <div class="focus-card">
-            <p class="eyebrow">Suggested flow</p>
+            <p class="eyebrow">Workflow</p>
             <ol class="focus-list">
-              <li>Start with JLPT reading to set the learning context.</li>
-              <li>Switch to Roadmap Words for repetition and recall.</li>
-              <li>Use split view only when comparing notes side by side.</li>
+              <li>Sync project resources with GitHub CLI when you want fresh code.</li>
+              <li>Start or restart a host directly from its card.</li>
+              <li>Open the live app only when the host is healthy and ready.</li>
             </ol>
           </div>
-          <div class="status-grid" id="statusGrid"></div>
+
+          <div class="resource-card">
+            <p class="eyebrow">Resource root</p>
+            <strong id="resourcesRootLabel">resources</strong>
+            <p class="resource-copy">
+              Each project is mirrored locally under the resources folder and controlled through shell scripts defined in settings.
+            </p>
+            <button id="refreshAllBtn" class="secondary-btn" type="button">Refresh statuses</button>
+          </div>
         </aside>
       </header>
 
       <main class="workspace">
-        <section class="discovery-panel">
+        <section class="section-panel">
           <div class="section-heading">
             <div>
-              <p class="eyebrow">Choose Your Track</p>
-              <h2>Open the right learning mode in one click</h2>
+              <p class="eyebrow">Projects</p>
+              <h2>Open and operate each study site like a managed app</h2>
             </div>
             <p class="section-copy">
-              Treat each app like a dedicated study room. The hub keeps the switch between
-              long-form reading and one-word drills deliberate and fast.
+              The cards below are now launchers and host controllers. They do not embed the sites anymore.
             </p>
           </div>
-          <div class="app-grid" id="appGrid"></div>
+          <div class="project-grid" id="projectGrid"></div>
         </section>
 
-        <section class="workspace-panel">
-          <div class="control-panel">
-            <div class="panel-copy">
-              <p class="eyebrow">Workspace</p>
-              <h2 id="panelTitle">Study Session</h2>
+        <section class="console-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Activity</p>
+              <h2>Latest command output</h2>
             </div>
-
-            <div class="toolbar">
-              <button id="toggleFocusBtn" class="secondary-btn" type="button">Focus mode</button>
-              <button id="toggleSplitBtn" class="secondary-btn" type="button">Split view</button>
-              <button id="refreshBtn" class="secondary-btn" type="button">Refresh current</button>
-              <button id="openBtn" class="primary-btn" type="button">Open original</button>
-            </div>
+            <p class="section-copy">
+              Sync, start, stop, and restart actions will stream their latest result here.
+            </p>
           </div>
-
-          <div class="workspace-meta">
-            <div class="tab-list" id="tabList" role="tablist" aria-label="Study apps"></div>
-            <div class="shortcut-strip">
-              <span><kbd>1</kbd> JLPT</span>
-              <span><kbd>2</kbd> Roadmap</span>
-              <span><kbd>R</kbd> Refresh</span>
-              <span><kbd>S</kbd> Split</span>
-              <span><kbd>F</kbd> Focus</span>
-            </div>
-          </div>
-
-          <section class="content-grid" id="contentGrid">
-            <article class="frame-card">
-              <div class="frame-meta">
-                <div>
-                  <h3 id="primaryTitle"></h3>
-                  <p id="primarySubtitle"></p>
-                </div>
-                <span class="frame-url" id="primaryUrl"></span>
-              </div>
-              <div class="frame-wrap">
-                <iframe id="primaryFrame" title="Primary study app"></iframe>
-                <div id="primaryFallback" class="fallback hidden"></div>
-              </div>
-            </article>
-
-            <article class="frame-card split-only hidden" id="secondaryCard">
-              <div class="frame-meta">
-                <div>
-                  <h3 id="secondaryTitle"></h3>
-                  <p id="secondarySubtitle"></p>
-                </div>
-                <span class="frame-url" id="secondaryUrl"></span>
-              </div>
-              <div class="frame-wrap">
-                <iframe id="secondaryFrame" title="Secondary study app"></iframe>
-                <div id="secondaryFallback" class="fallback hidden"></div>
-              </div>
-            </article>
-          </section>
+          <pre class="console-output" id="consoleOutput">No actions yet.</pre>
         </section>
       </main>
     </div>

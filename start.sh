@@ -1,0 +1,88 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PID_FILE="$ROOT_DIR/.server.pid"
+PORT_FILE="$ROOT_DIR/.server.port"
+LOG_FILE="$ROOT_DIR/.server.log"
+
+cleanup_stale_pid() {
+  if [[ -f "$PID_FILE" ]]; then
+    local existing_pid
+    existing_pid="$(cat "$PID_FILE")"
+
+    if kill -0 "$existing_pid" >/dev/null 2>&1; then
+      echo "Learning Hub is already running on PID $existing_pid"
+      exit 0
+    fi
+
+    rm -f "$PID_FILE"
+  fi
+}
+
+ensure_port_is_free() {
+  local listener_pid
+  listener_pid="$(lsof -tiTCP:"$PORT" -sTCP:LISTEN || true)"
+
+  if [[ -n "$listener_pid" ]]; then
+    echo "Port $PORT is already in use by PID $listener_pid"
+    exit 1
+  fi
+}
+
+ensure_dependencies() {
+  if [[ -d "$ROOT_DIR/node_modules" ]]; then
+    return
+  fi
+
+  echo "Dependencies not found. Running yarn install..."
+  yarn install
+}
+
+server_is_ready() {
+  node -e "
+    const http = require('http');
+    const request = http.get(
+      { host: process.env.HOST, port: process.env.PORT, path: '/api/projects', timeout: 800 },
+      (response) => process.exit(response.statusCode === 200 ? 0 : 1),
+    );
+    request.on('timeout', () => request.destroy(new Error('timeout')));
+    request.on('error', () => process.exit(1));
+  " >/dev/null 2>&1
+}
+
+cd "$ROOT_DIR"
+PORT="${PORT:-7000}"
+HOST="${HOST:-127.0.0.1}"
+cleanup_stale_pid
+ensure_port_is_free
+ensure_dependencies
+
+nohup env HOST="$HOST" PORT="$PORT" yarn start >"$LOG_FILE" 2>&1 &
+SERVER_PID=$!
+echo "$SERVER_PID" >"$PID_FILE"
+echo "$PORT" >"$PORT_FILE"
+
+for _ in 1 2 3 4 5 6 7 8 9 10; do
+  if ! kill -0 "$SERVER_PID" >/dev/null 2>&1; then
+    break
+  fi
+
+  if HOST="$HOST" PORT="$PORT" server_is_ready; then
+    echo "Learning Hub started"
+    echo "PID: $SERVER_PID"
+    echo "URL: http://$HOST:$PORT"
+    echo "Log: $LOG_FILE"
+    exit 0
+  fi
+
+  sleep 1
+done
+
+if ! kill -0 "$SERVER_PID" >/dev/null 2>&1 || ! HOST="$HOST" PORT="$PORT" server_is_ready; then
+  echo "Failed to start Learning Hub on port $PORT"
+  echo "Recent log:"
+  sed -n '1,80p' "$LOG_FILE"
+  rm -f "$PID_FILE" "$PORT_FILE"
+  exit 1
+fi

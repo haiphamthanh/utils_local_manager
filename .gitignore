@@ -1,0 +1,10 @@
+node_modules/
+.server.pid
+.server.port
+.server.log
+
+resources/utils_learnJP_ronbun/
+resources/utils_learnJP_kotoba/
+!resources/settings.json
+
+.DS_Store
