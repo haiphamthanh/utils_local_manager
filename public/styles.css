@@ -54,16 +54,16 @@ body {
 
 .hero-panel {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  gap: 14px;
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
+  gap: 18px;
+  align-items: stretch;
   padding: 16px 18px;
 }
 
 .hero-side {
   display: flex;
   justify-content: end;
-  align-items: start;
+  align-items: stretch;
 }
 
 .eyebrow,
@@ -108,10 +108,17 @@ h3 {
   line-height: 1.05;
 }
 
+.hero-description {
+  margin-top: 8px;
+  max-width: 56ch;
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 14px;
+}
+
 .metrics-table {
-  margin-top: 12px;
   display: inline-grid;
-  min-width: min(100%, 520px);
+  width: 100%;
   border: 1px solid rgba(48, 34, 20, 0.08);
   border-radius: 14px;
   overflow: hidden;
@@ -162,6 +169,11 @@ h3 {
   justify-content: space-between;
   gap: 10px;
   align-items: center;
+}
+
+.refresh-btn {
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .project-grid {
@@ -355,10 +367,6 @@ button:disabled {
   color: rgba(34, 25, 16, 0.58);
   border-color: rgba(48, 34, 20, 0.08);
   box-shadow: none;
-}
-
-.refresh-btn {
-  white-space: nowrap;
 }
 
 .console-panel {

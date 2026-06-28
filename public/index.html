@@ -12,6 +12,13 @@
         <div class="hero-copy">
           <p class="eyebrow">Study Control Center</p>
           <h1>Learning Hub</h1>
+          <p class="hero-description">
+            One place to open, sync, and operate the two local Japanese learning
+            projects without treating them like scattered localhost tabs.
+          </p>
+        </div>
+
+        <aside class="hero-side">
           <div class="metrics-table">
             <div class="metrics-row">
               <span class="metric-label">Projects</span>
@@ -26,10 +33,6 @@
               <strong class="metric-value metric-path" id="settingsPathLabel">resources/settings.json</strong>
             </div>
           </div>
-        </div>
-
-        <aside class="hero-side">
-          <button id="refreshAllBtn" class="secondary-btn refresh-btn" type="button">Refresh statuses</button>
         </aside>
       </header>
 
@@ -40,6 +43,7 @@
               <p class="eyebrow">Projects</p>
               <h2>Project Controls</h2>
             </div>
+            <button id="refreshAllBtn" class="secondary-btn refresh-btn" type="button">Refresh statuses</button>
           </div>
           <div class="project-grid" id="projectGrid"></div>
         </section>
