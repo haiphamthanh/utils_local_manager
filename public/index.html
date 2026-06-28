@@ -8,54 +8,113 @@
   </head>
   <body>
     <div class="app-shell">
-      <header class="topbar">
-        <div>
-          <p class="eyebrow">Workspace</p>
+      <header class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Daily Study Workspace</p>
           <h1>Learning Hub</h1>
-          <p class="subtitle">One shell for daily JLPT study and roadmap review.</p>
+          <p class="subtitle">
+            A single study surface for structured JLPT reading and rapid roadmap review,
+            designed to feel like one product instead of two localhost tabs.
+          </p>
+          <div class="hero-metrics">
+            <div class="metric-card">
+              <span class="metric-label">Active track</span>
+              <strong class="metric-value" id="activeTrackLabel">Loading</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Workspace mode</span>
+              <strong class="metric-value" id="viewModeLabel">Single view</strong>
+            </div>
+            <div class="metric-card">
+              <span class="metric-label">Today</span>
+              <strong class="metric-value" id="todayLabel">...</strong>
+            </div>
+          </div>
         </div>
-        <div class="status-grid" id="statusGrid"></div>
+
+        <aside class="hero-side">
+          <div class="focus-card">
+            <p class="eyebrow">Suggested flow</p>
+            <ol class="focus-list">
+              <li>Start with JLPT reading to set the learning context.</li>
+              <li>Switch to Roadmap Words for repetition and recall.</li>
+              <li>Use split view only when comparing notes side by side.</li>
+            </ol>
+          </div>
+          <div class="status-grid" id="statusGrid"></div>
+        </aside>
       </header>
 
       <main class="workspace">
-        <section class="control-panel">
-          <div class="tab-list" id="tabList" role="tablist" aria-label="Study apps"></div>
-
-          <div class="toolbar">
-            <button id="toggleSplitBtn" class="secondary-btn" type="button">Split view</button>
-            <button id="refreshBtn" class="secondary-btn" type="button">Refresh current</button>
-            <button id="openBtn" class="primary-btn" type="button">Open original</button>
+        <section class="discovery-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Choose Your Track</p>
+              <h2>Open the right learning mode in one click</h2>
+            </div>
+            <p class="section-copy">
+              Treat each app like a dedicated study room. The hub keeps the switch between
+              long-form reading and one-word drills deliberate and fast.
+            </p>
           </div>
+          <div class="app-grid" id="appGrid"></div>
         </section>
 
-        <section class="content-grid" id="contentGrid">
-          <article class="frame-card">
-            <div class="frame-meta">
-              <div>
-                <h2 id="primaryTitle"></h2>
-                <p id="primarySubtitle"></p>
-              </div>
-              <span class="frame-url" id="primaryUrl"></span>
+        <section class="workspace-panel">
+          <div class="control-panel">
+            <div class="panel-copy">
+              <p class="eyebrow">Workspace</p>
+              <h2 id="panelTitle">Study Session</h2>
             </div>
-            <div class="frame-wrap">
-              <iframe id="primaryFrame" title="Primary study app"></iframe>
-              <div id="primaryFallback" class="fallback hidden"></div>
-            </div>
-          </article>
 
-          <article class="frame-card split-only hidden" id="secondaryCard">
-            <div class="frame-meta">
-              <div>
-                <h2 id="secondaryTitle"></h2>
-                <p id="secondarySubtitle"></p>
+            <div class="toolbar">
+              <button id="toggleFocusBtn" class="secondary-btn" type="button">Focus mode</button>
+              <button id="toggleSplitBtn" class="secondary-btn" type="button">Split view</button>
+              <button id="refreshBtn" class="secondary-btn" type="button">Refresh current</button>
+              <button id="openBtn" class="primary-btn" type="button">Open original</button>
+            </div>
+          </div>
+
+          <div class="workspace-meta">
+            <div class="tab-list" id="tabList" role="tablist" aria-label="Study apps"></div>
+            <div class="shortcut-strip">
+              <span><kbd>1</kbd> JLPT</span>
+              <span><kbd>2</kbd> Roadmap</span>
+              <span><kbd>R</kbd> Refresh</span>
+              <span><kbd>S</kbd> Split</span>
+              <span><kbd>F</kbd> Focus</span>
+            </div>
+          </div>
+
+          <section class="content-grid" id="contentGrid">
+            <article class="frame-card">
+              <div class="frame-meta">
+                <div>
+                  <h3 id="primaryTitle"></h3>
+                  <p id="primarySubtitle"></p>
+                </div>
+                <span class="frame-url" id="primaryUrl"></span>
               </div>
-              <span class="frame-url" id="secondaryUrl"></span>
-            </div>
-            <div class="frame-wrap">
-              <iframe id="secondaryFrame" title="Secondary study app"></iframe>
-              <div id="secondaryFallback" class="fallback hidden"></div>
-            </div>
-          </article>
+              <div class="frame-wrap">
+                <iframe id="primaryFrame" title="Primary study app"></iframe>
+                <div id="primaryFallback" class="fallback hidden"></div>
+              </div>
+            </article>
+
+            <article class="frame-card split-only hidden" id="secondaryCard">
+              <div class="frame-meta">
+                <div>
+                  <h3 id="secondaryTitle"></h3>
+                  <p id="secondarySubtitle"></p>
+                </div>
+                <span class="frame-url" id="secondaryUrl"></span>
+              </div>
+              <div class="frame-wrap">
+                <iframe id="secondaryFrame" title="Secondary study app"></iframe>
+                <div id="secondaryFallback" class="fallback hidden"></div>
+              </div>
+            </article>
+          </section>
         </section>
       </main>
     </div>
