@@ -1,0 +1,9 @@
+{
+  "name": "learning-hub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local workspace shell that embeds JLPT and Roadmap study apps.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

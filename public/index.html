@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learning Hub</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Workspace</p>
+          <h1>Learning Hub</h1>
+          <p class="subtitle">One shell for daily JLPT study and roadmap review.</p>
+        </div>
+        <div class="status-grid" id="statusGrid"></div>
+      </header>
+
+      <main class="workspace">
+        <section class="control-panel">
+          <div class="tab-list" id="tabList" role="tablist" aria-label="Study apps"></div>
+
+          <div class="toolbar">
+            <button id="toggleSplitBtn" class="secondary-btn" type="button">Split view</button>
+            <button id="refreshBtn" class="secondary-btn" type="button">Refresh current</button>
+            <button id="openBtn" class="primary-btn" type="button">Open original</button>
+          </div>
+        </section>
+
+        <section class="content-grid" id="contentGrid">
+          <article class="frame-card">
+            <div class="frame-meta">
+              <div>
+                <h2 id="primaryTitle"></h2>
+                <p id="primarySubtitle"></p>
+              </div>
+              <span class="frame-url" id="primaryUrl"></span>
+            </div>
+            <div class="frame-wrap">
+              <iframe id="primaryFrame" title="Primary study app"></iframe>
+              <div id="primaryFallback" class="fallback hidden"></div>
+            </div>
+          </article>
+
+          <article class="frame-card split-only hidden" id="secondaryCard">
+            <div class="frame-meta">
+              <div>
+                <h2 id="secondaryTitle"></h2>
+                <p id="secondarySubtitle"></p>
+              </div>
+              <span class="frame-url" id="secondaryUrl"></span>
+            </div>
+            <div class="frame-wrap">
+              <iframe id="secondaryFrame" title="Secondary study app"></iframe>
+              <div id="secondaryFallback" class="fallback hidden"></div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+  </html>
