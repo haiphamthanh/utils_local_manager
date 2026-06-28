@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { spawn } = require("child_process");
 
-const PORT = Number(process.env.PORT || 7000);
+const PORT = Number(process.env.PORT || 7070);
 const HOST = process.env.HOST || "127.0.0.1";
 const ROOT_DIR = __dirname;
 const PUBLIC_DIR = path.join(ROOT_DIR, "public");
@@ -66,7 +66,7 @@ server_is_ready() {
 
 cd "$ROOT_DIR"
 load_env_file
-PORT="\${PORT:-3000}"
+PORT="\${PORT:-5050}"
 HOST="\${HOST:-127.0.0.1}"
 cleanup_stale_pid
 ensure_port_is_free
@@ -112,7 +112,7 @@ read_port() {
   if [[ -f "$PORT_FILE" ]]; then
     cat "$PORT_FILE"
   else
-    printf "3000"
+    printf "5050"
   fi
 }
 

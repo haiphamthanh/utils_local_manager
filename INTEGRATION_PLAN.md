@@ -2,7 +2,7 @@
 
 ## Goal
 
-Create a local workspace at `http://127.0.0.1:7000/` that hosts:
+Create a local workspace at `http://127.0.0.1:7070/` that hosts:
 
 - `JLPT Daily` -> `http://127.0.0.1:3000/`
 - `Roadmap Words` -> `http://127.0.0.1:8000/`
@@ -25,7 +25,7 @@ This is better than a heavy sidebar because the user task is content consumption
 
 Current prototype in this repo:
 
-- Runs on `127.0.0.1:7000`
+- Runs on `127.0.0.1:7070`
 - Embeds both apps with `iframe`
 - Stores the last active tab in `localStorage`
 - Supports split view and basic health checks

@@ -52,7 +52,7 @@ server_is_ready() {
 }
 
 cd "$ROOT_DIR"
-PORT="${PORT:-7000}"
+PORT="${PORT:-7070}"
 HOST="${HOST:-127.0.0.1}"
 cleanup_stale_pid
 ensure_port_is_free

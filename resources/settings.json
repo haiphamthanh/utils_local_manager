@@ -10,8 +10,8 @@
       "repoUrl": "git@github.com:haiphamthanh/utils_learnJP_ronbun.git",
       "branch": "master",
       "host": "127.0.0.1",
-      "port": 3000,
-      "url": "http://127.0.0.1:3000/",
+      "port": 5050,
+      "url": "http://127.0.0.1:5050/",
       "resourceDir": "resources/utils_learnJP_ronbun",
       "scripts": {
         "start": "start.sh",
