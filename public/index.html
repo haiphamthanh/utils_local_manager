@@ -12,44 +12,24 @@
         <div class="hero-copy">
           <p class="eyebrow">Study Control Center</p>
           <h1>Learning Hub</h1>
-          <p class="subtitle">
-            One place to open, sync, and operate the two local Japanese learning
-            projects without treating them like scattered localhost tabs.
-          </p>
-          <div class="hero-metrics">
-            <div class="metric-card">
+          <div class="metrics-table">
+            <div class="metrics-row">
               <span class="metric-label">Projects</span>
               <strong class="metric-value" id="projectCountLabel">0</strong>
             </div>
-            <div class="metric-card">
+            <div class="metrics-row">
               <span class="metric-label">Hosts running</span>
               <strong class="metric-value" id="runningCountLabel">0</strong>
             </div>
-            <div class="metric-card">
+            <div class="metrics-row">
               <span class="metric-label">Settings</span>
-              <strong class="metric-value" id="settingsPathLabel">resources/settings.json</strong>
+              <strong class="metric-value metric-path" id="settingsPathLabel">resources/settings.json</strong>
             </div>
           </div>
         </div>
 
         <aside class="hero-side">
-          <div class="focus-card">
-            <p class="eyebrow">Workflow</p>
-            <ol class="focus-list">
-              <li>Sync project resources with GitHub CLI when you want fresh code.</li>
-              <li>Start or restart a host directly from its card.</li>
-              <li>Open the live app only when the host is healthy and ready.</li>
-            </ol>
-          </div>
-
-          <div class="resource-card">
-            <p class="eyebrow">Resource root</p>
-            <strong id="resourcesRootLabel">resources</strong>
-            <p class="resource-copy">
-              Each project is mirrored locally under the resources folder and controlled through shell scripts defined in settings.
-            </p>
-            <button id="refreshAllBtn" class="secondary-btn" type="button">Refresh statuses</button>
-          </div>
+          <button id="refreshAllBtn" class="secondary-btn refresh-btn" type="button">Refresh statuses</button>
         </aside>
       </header>
 
@@ -58,11 +38,8 @@
           <div class="section-heading">
             <div>
               <p class="eyebrow">Projects</p>
-              <h2>Open and operate each study site like a managed app</h2>
+              <h2>Project Controls</h2>
             </div>
-            <p class="section-copy">
-              The cards below are now launchers and host controllers. They do not embed the sites anymore.
-            </p>
           </div>
           <div class="project-grid" id="projectGrid"></div>
         </section>

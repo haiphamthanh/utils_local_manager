@@ -9,7 +9,6 @@ const elements = {
   projectCountLabel: document.getElementById("projectCountLabel"),
   runningCountLabel: document.getElementById("runningCountLabel"),
   settingsPathLabel: document.getElementById("settingsPathLabel"),
-  resourcesRootLabel: document.getElementById("resourcesRootLabel"),
   refreshAllBtn: document.getElementById("refreshAllBtn")
 };
 
@@ -23,12 +22,11 @@ function setConsoleOutput(text) {
   elements.consoleOutput.textContent = text || "No actions yet.";
 }
 
-function updateMetrics(settingsPath, resourcesRoot) {
+function updateMetrics(settingsPath) {
   const runningCount = state.projects.filter((project) => project.health.running).length;
   elements.projectCountLabel.textContent = String(state.projects.length);
   elements.runningCountLabel.textContent = String(runningCount);
   elements.settingsPathLabel.textContent = settingsPath;
-  elements.resourcesRootLabel.textContent = resourcesRoot;
 }
 
 function renderProjects() {
@@ -39,6 +37,7 @@ function renderProjects() {
     card.className = `project-card project-card--${project.id}`;
 
     const isBusy = state.busyProjectId === project.id;
+    const isRunning = project.health.running;
     const gitState = project.git.exists
       ? `${project.git.branch || project.branch || "unknown"}${project.git.commit ? ` · ${project.git.commit}` : ""}`
       : "Not cloned";
@@ -50,7 +49,7 @@ function renderProjects() {
           <h3>${project.title}</h3>
           <p class="project-subtitle">${project.subtitle}</p>
         </div>
-        <button class="primary-btn" type="button" data-action="open" data-project-id="${project.id}">Open site</button>
+        <button class="primary-btn" type="button" data-action="open" data-project-id="${project.id}" ${!isRunning ? "disabled" : ""}>Open site</button>
       </div>
 
       <p class="project-description">${project.description}</p>
@@ -88,9 +87,9 @@ function renderProjects() {
 
       <div class="button-row">
         <button class="secondary-btn" type="button" data-action="sync" data-project-id="${project.id}" ${isBusy ? "disabled" : ""}>Sync with gh</button>
-        <button class="secondary-btn" type="button" data-action="start" data-project-id="${project.id}" ${isBusy ? "disabled" : ""}>Start</button>
-        <button class="secondary-btn" type="button" data-action="stop" data-project-id="${project.id}" ${isBusy ? "disabled" : ""}>Stop</button>
-        <button class="ghost-btn" type="button" data-action="restart" data-project-id="${project.id}" ${isBusy ? "disabled" : ""}>Restart</button>
+        <button class="secondary-btn" type="button" data-action="start" data-project-id="${project.id}" ${isBusy || isRunning ? "disabled" : ""}>Start</button>
+        <button class="secondary-btn" type="button" data-action="stop" data-project-id="${project.id}" ${isBusy || !isRunning ? "disabled" : ""}>Stop</button>
+        <button class="ghost-btn" type="button" data-action="restart" data-project-id="${project.id}" ${isBusy || !isRunning ? "disabled" : ""}>Restart</button>
       </div>
     `;
 
@@ -126,7 +125,7 @@ async function fetchProjects() {
   const response = await fetch("/api/projects");
   const payload = await response.json();
   state.projects = payload.projects;
-  updateMetrics(payload.settingsPath, payload.resourcesRoot);
+  updateMetrics(payload.settingsPath);
   renderProjects();
 }
 
