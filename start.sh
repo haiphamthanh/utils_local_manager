@@ -5,6 +5,7 @@ ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PID_FILE="$ROOT_DIR/.server.pid"
 PORT_FILE="$ROOT_DIR/.server.port"
 LOG_FILE="$ROOT_DIR/.server.log"
+SETTINGS_FILE="$ROOT_DIR/resources/settings.json"
 
 cleanup_stale_pid() {
   if [[ -f "$PID_FILE" ]]; then
@@ -39,6 +40,77 @@ ensure_dependencies() {
   yarn install
 }
 
+ensure_github_cli() {
+  if command -v gh >/dev/null 2>&1; then
+    return
+  fi
+
+  echo "GitHub CLI (gh) is required to sync resources before starting Learning Hub."
+  exit 1
+}
+
+sync_project_repo() {
+  local github_repo="$1"
+  local resource_dir="$2"
+  local branch="$3"
+  local resource_parent
+  local stash_name="learning-hub-start-sync"
+
+  if [[ ! -d "$resource_dir/.git" ]]; then
+    resource_parent="$(dirname "$resource_dir")"
+    mkdir -p "$resource_parent"
+    echo "Cloning $github_repo into $resource_dir"
+    gh repo clone "$github_repo" "$resource_dir"
+    return
+  fi
+
+  echo "Syncing $github_repo in $resource_dir"
+  pushd "$resource_dir" >/dev/null
+
+  local is_dirty
+  local stashed=0
+  is_dirty="$(git status --porcelain)"
+
+  if [[ -n "$is_dirty" ]]; then
+    git stash push --all -m "$stash_name" >/dev/null
+    stashed=1
+  fi
+
+  gh repo sync --source "$github_repo" --branch "$branch"
+
+  if [[ "$stashed" -eq 1 ]]; then
+    git stash pop >/dev/null || {
+      echo "Failed to restore local changes after syncing $github_repo"
+      popd >/dev/null
+      exit 1
+    }
+  fi
+
+  popd >/dev/null
+}
+
+sync_resources() {
+  if [[ ! -f "$SETTINGS_FILE" ]]; then
+    echo "Missing settings file: $SETTINGS_FILE"
+    exit 1
+  fi
+
+  ensure_github_cli
+
+  while IFS=$'\t' read -r github_repo resource_dir branch; do
+    [[ -z "$github_repo" ]] && continue
+    sync_project_repo "$github_repo" "$ROOT_DIR/$resource_dir" "$branch"
+  done < <(
+    node -e "
+      const fs = require('fs');
+      const settings = JSON.parse(fs.readFileSync(process.argv[1], 'utf8'));
+      for (const project of settings.projects || []) {
+        console.log([project.githubRepo, project.resourceDir, project.branch].join('\t'));
+      }
+    " "$SETTINGS_FILE"
+  )
+}
+
 server_is_ready() {
   node -e "
     const http = require('http');
@@ -57,6 +129,7 @@ HOST="${HOST:-127.0.0.1}"
 cleanup_stale_pid
 ensure_port_is_free
 ensure_dependencies
+sync_resources
 
 nohup env HOST="$HOST" PORT="$PORT" yarn start >"$LOG_FILE" 2>&1 &
 SERVER_PID=$!
