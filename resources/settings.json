@@ -37,6 +37,25 @@
         "stop": "stop.sh"
       },
       "tags": ["Single-word drill", "Roadmap review", "Quick recall"]
+    },
+    {
+      "id": "daily-assistant",
+      "title": "Daily Assistant",
+      "subtitle": "Personal URL vault and assistant workspace",
+      "description": "Personal URL vault with local storage, search, auth, and assistant-oriented workflow management.",
+      "repoName": "utils_daily_assistant",
+      "githubRepo": "haiphamthanh/utils_daily_assistant",
+      "repoUrl": "git@github.com:haiphamthanh/utils_daily_assistant.git",
+      "branch": "main",
+      "host": "127.0.0.1",
+      "port": 6060,
+      "url": "http://127.0.0.1:6060/",
+      "resourceDir": "resources/utils_daily_assistant",
+      "scripts": {
+        "start": "start-control.sh",
+        "stop": "stop-control.sh"
+      },
+      "tags": ["URL vault", "Assistant", "Knowledge base"]
     }
   ]
 }

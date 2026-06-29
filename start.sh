@@ -97,18 +97,16 @@ sync_resources() {
 
   ensure_github_cli
 
-  while IFS=$'\t' read -r github_repo resource_dir branch; do
+  node -e "
+    const fs = require('fs');
+    const settings = JSON.parse(fs.readFileSync(process.argv[1], 'utf8'));
+    for (const project of settings.projects || []) {
+      console.log([project.githubRepo, project.resourceDir, project.branch].join('\t'));
+    }
+  " "$SETTINGS_FILE" | while IFS="$(printf '\t')" read -r github_repo resource_dir branch; do
     [[ -z "$github_repo" ]] && continue
     sync_project_repo "$github_repo" "$ROOT_DIR/$resource_dir" "$branch"
-  done < <(
-    node -e "
-      const fs = require('fs');
-      const settings = JSON.parse(fs.readFileSync(process.argv[1], 'utf8'));
-      for (const project of settings.projects || []) {
-        console.log([project.githubRepo, project.resourceDir, project.branch].join('\t'));
-      }
-    " "$SETTINGS_FILE"
-  )
+  done
 }
 
 server_is_ready() {
