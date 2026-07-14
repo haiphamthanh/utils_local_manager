@@ -56,6 +56,25 @@
         "stop": "stop-control.sh"
       },
       "tags": ["URL vault", "Assistant", "Knowledge base"]
+    },
+    {
+      "id": "learn-video",
+      "title": "Learn By Video",
+      "subtitle": "Hoc tieng Nhat qua video",
+      "description": "Video-based Japanese learning with interactive subtitle and vocabulary tracking.",
+      "repoName": "utils_learn_by_video",
+      "githubRepo": "haiphamthanh/utils_learn_by_video",
+      "repoUrl": "git@github.com:haiphamthanh/utils_learn_by_video.git",
+      "branch": "main",
+      "host": "127.0.0.1",
+      "port": 9090,
+      "url": "http://127.0.0.1:9090/",
+      "resourceDir": "resources/utils_learn_by_video",
+      "scripts": {
+        "start": "start.sh",
+        "stop": "stop.sh"
+      },
+      "tags": ["Video learning", "Japanese", "Subtitles"]
     }
   ]
 }
