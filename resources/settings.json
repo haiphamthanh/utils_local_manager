@@ -75,6 +75,25 @@
         "stop": "stop.sh"
       },
       "tags": ["Video learning", "Japanese", "Subtitles"]
+    },
+    {
+      "id": "storage-explorer",
+      "title": "Storage Explorer",
+      "subtitle": "Browse saved items and bookmarks",
+      "description": "File-system explorer for the daily assistant storage, listing all saved URLs, notes, and content across platforms.",
+      "repoName": "utils_daily_assistant_storage",
+      "githubRepo": "haiphamthanh/utils_daily_assistant_storage",
+      "repoUrl": "git@github.com:haiphamthanh/utils_daily_assistant_storage.git",
+      "branch": "main",
+      "host": "127.0.0.1",
+      "port": 8080,
+      "url": "http://127.0.0.1:8080/",
+      "resourceDir": "resources/utils_daily_assistant_storage",
+      "scripts": {
+        "start": "start.sh",
+        "stop": "stop.sh"
+      },
+      "tags": ["Storage", "Explorer", "Bookmarks"]
     }
   ]
 }

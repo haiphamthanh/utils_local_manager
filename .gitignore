@@ -6,6 +6,8 @@ node_modules/
 resources/utils_learnJP_ronbun/
 resources/utils_learnJP_kotoba/
 resources/utils_daily_assistant/
+resources/utils_daily_assistant_storage/
+resources/utils_learn_by_video/
 !resources/settings.json
 
 .DS_Store
