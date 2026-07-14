@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Storage Explorer</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f5f5f5;
+    color: #1a1a1a;
+    min-height: 100vh;
+  }
+
+  header {
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 { font-size: 15px; font-weight: 600; white-space: nowrap; }
+  header .back-link {
+    font-size: 13px; color: #1a73e8; text-decoration: none;
+    padding: 4px 8px; border-radius: 4px; cursor: pointer;
+  }
+  header .back-link:hover { background: #e8f0fe; }
+
+  main {
+    max-width: 960px; width: 100%; margin: 0 auto; padding: 16px 20px;
+  }
+
+  .project-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  .project-card {
+    background: #fff; border: 1px solid #e0e0e0; border-radius: 8px;
+    padding: 20px; cursor: pointer; transition: box-shadow 0.15s;
+  }
+  .project-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+  .project-card h3 { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .project-card .subtitle { font-size: 12px; color: #888; margin-bottom: 8px; }
+  .project-card .desc { font-size: 12px; color: #555; line-height: 1.5; margin-bottom: 12px; }
+  .project-card .meta {
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+  .project-card .meta span {
+    padding: 2px 8px; border-radius: 4px; font-size: 10px;
+    background: #f0f0f0; color: #666;
+  }
+  .project-card .path-chip {
+    font-size: 11px; color: #888; margin-top: 10px;
+    font-family: monospace; background: #f5f5f5; padding: 4px 8px;
+    border-radius: 4px; word-break: break-all;
+  }
+
+  .breadcrumbs {
+    display: flex; align-items: center; gap: 4px;
+    font-size: 13px; margin-bottom: 16px; flex-wrap: wrap;
+  }
+  .breadcrumbs a {
+    color: #1a73e8; text-decoration: none; padding: 2px 4px; border-radius: 3px;
+    cursor: pointer;
+  }
+  .breadcrumbs a:hover { background: #e8f0fe; }
+  .breadcrumbs span { color: #999; }
+
+  .listing {
+    background: #fff; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden;
+  }
+  .listing table { width: 100%; border-collapse: collapse; }
+  .listing th {
+    text-align: left; padding: 9px 16px; font-size: 11px; font-weight: 600;
+    color: #888; text-transform: uppercase; letter-spacing: 0.5px;
+    border-bottom: 1px solid #e0e0e0; background: #fafafa;
+  }
+  .listing td { padding: 9px 16px; font-size: 13px; border-bottom: 1px solid #f0f0f0; }
+  .listing tr:last-child td { border-bottom: none; }
+  .listing tr:hover td { background: #f5f8ff; }
+
+  .entry-name { display: flex; align-items: center; gap: 8px; }
+  .entry-name a {
+    color: #1a73e8; text-decoration: none; font-weight: 500; cursor: pointer;
+  }
+  .entry-name a:hover { text-decoration: underline; }
+  .entry-icon { width: 20px; text-align: center; font-size: 14px; }
+  .entry-size { color: #888; font-size: 12px; }
+  .entry-ext {
+    display: inline-block; padding: 1px 6px; border-radius: 3px;
+    font-size: 10px; background: #f0f0f0; color: #888;
+  }
+
+  .panel {
+    background: #fff; border: 1px solid #e0e0e0; border-radius: 8px;
+    margin-top: 16px; overflow: hidden;
+  }
+  .panel-header {
+    padding: 10px 16px; background: #fafafa; border-bottom: 1px solid #e0e0e0;
+    font-size: 13px; font-weight: 600; display: flex;
+    justify-content: space-between; align-items: center;
+  }
+  .panel-body { padding: 16px; max-height: 60vh; overflow-y: auto; }
+  .panel-body pre {
+    background: #1e1e1e; color: #d4d4d4; padding: 16px; border-radius: 6px;
+    font-family: "SF Mono", "Fira Code", monospace; font-size: 12px;
+    line-height: 1.6; overflow-x: auto; white-space: pre-wrap; word-break: break-all;
+  }
+
+  button.small-btn {
+    background: none; border: 1px solid #ddd; padding: 4px 12px;
+    border-radius: 4px; cursor: pointer; font-size: 12px;
+  }
+  button.small-btn:hover { background: #f0f0f0; }
+
+  .empty-state {
+    text-align: center; padding: 60px 20px; color: #999;
+  }
+  .empty-state .icon { font-size: 36px; margin-bottom: 12px; }
+  .error-box {
+    background: #fff0f0; border: 1px solid #ffd0d0; border-radius: 8px;
+    padding: 16px; color: #c00; font-size: 13px;
+  }
+  .status-bar { font-size: 11px; color: #888; padding: 6px 0; }
+
+  .json-key { color: #569cd6; }
+  .json-string { color: #ce9178; }
+  .json-number { color: #b5cea8; }
+  .json-boolean { color: #569cd6; }
+  .json-null { color: #569cd6; }
+</style>
+</head>
+<body>
+
+<header>
+  <a href="/" class="back-link">&larr; Hub</a>
+  <a class="back-link" id="nav-projects" style="display:none">&larr; Projects</a>
+  <h1 id="page-title">Storage Projects</h1>
+</header>
+
+<main id="main-content"></main>
+
+<script>
+let storageProjects = [];
+let currentProjectId = null;
+let currentPath = "";
+
+const mainEl = document.getElementById("main-content");
+const titleEl = document.getElementById("page-title");
+const navProjects = document.getElementById("nav-projects");
+
+async function api(url) {
+  const res = await fetch(url);
+  const json = await res.json();
+  if (json.error) throw new Error(json.error);
+  return json.data !== undefined ? json.data : json;
+}
+
+async function loadProjects() {
+  try {
+    const data = await api("/api/projects");
+    storageProjects = (data.projects || []).filter(p => p.type === "storage");
+    renderProjectList();
+  } catch (err) {
+    mainEl.innerHTML = '<div class="error-box">Failed to load: ' + err.message + '</div>';
+  }
+}
+
+function renderProjectList() {
+  titleEl.textContent = "Storage Projects";
+  navProjects.style.display = "none";
+  currentProjectId = null;
+  currentPath = "";
+
+  if (storageProjects.length === 0) {
+    mainEl.innerHTML = '<div class="empty-state"><div class="icon">&#128194;</div><p>No storage projects configured.</p><p style="font-size:12px;margin-top:4px;">Add a project with <code>"type": "storage"</code> in settings.json</p></div>';
+    return;
+  }
+
+  const grid = document.createElement("div");
+  grid.className = "project-grid";
+
+  for (const project of storageProjects) {
+    const card = document.createElement("div");
+    card.className = "project-card";
+    card.innerHTML = `
+      <h3>${escapeHtml(project.title)}</h3>
+      <p class="subtitle">${escapeHtml(project.subtitle || "")}</p>
+      <p class="desc">${escapeHtml(project.description || "")}</p>
+      <div class="meta">
+        ${(project.tags || []).map(t => '<span>' + escapeHtml(t) + '</span>').join("")}
+      </div>
+      <div class="path-chip">${escapeHtml(project.resourceDir)}</div>
+    `;
+    card.addEventListener("click", () => browseProject(project));
+    grid.appendChild(card);
+  }
+
+  mainEl.innerHTML = "";
+  mainEl.appendChild(grid);
+}
+
+async function browseProject(project) {
+  currentProjectId = project.id;
+  currentPath = project.resourceDir;
+  titleEl.textContent = project.title;
+  navProjects.style.display = "inline";
+  closeFilePanel();
+  await loadDir(currentPath);
+}
+
+async function loadDir(dir) {
+  currentPath = dir;
+  const qs = dir ? "?path=" + encodeURIComponent(dir) : "";
+
+  try {
+    const data = await api("/api/storage" + qs);
+    document.getElementById("status-bar") && document.getElementById("status-bar").remove();
+
+    const statusBar = document.createElement("div");
+    statusBar.className = "status-bar";
+    statusBar.id = "status-bar";
+    statusBar.textContent = data.entries.length + " item" + (data.entries.length !== 1 ? "s" : "");
+
+    const container = document.createElement("div");
+
+    const breadcrumbsDiv = document.createElement("div");
+    breadcrumbsDiv.className = "breadcrumbs";
+    breadcrumbsDiv.id = "breadcrumbs";
+    renderBreadcrumbsInto(breadcrumbsDiv, data.breadcrumbs, dir);
+
+    const listingDiv = document.createElement("div");
+    listingDiv.className = "listing";
+    listingDiv.id = "listing";
+    renderListingInto(listingDiv, data.entries, dir);
+
+    container.appendChild(breadcrumbsDiv);
+    container.appendChild(statusBar);
+    container.appendChild(listingDiv);
+
+    mainEl.innerHTML = "";
+    mainEl.appendChild(container);
+  } catch (err) {
+    mainEl.innerHTML = '<div class="error-box">' + err.message + '</div>';
+  }
+}
+
+function renderBreadcrumbsInto(container, breadcrumbs, currentDir) {
+  const project = storageProjects.find(p => p.id === currentProjectId);
+
+  const projectLink = document.createElement("a");
+  projectLink.textContent = project ? project.title : "root";
+  projectLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    if (project) browseProject(project);
+  });
+  container.appendChild(projectLink);
+
+  for (const crumb of breadcrumbs) {
+    container.appendChild(document.createTextNode(" / "));
+    const a = document.createElement("a");
+    a.textContent = crumb.name;
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      loadDir(crumb.path);
+    });
+    container.appendChild(a);
+  }
+}
+
+function renderListingInto(container, entries, parentDir) {
+  if (entries.length === 0) {
+    container.innerHTML = '<div class="empty-state"><div class="icon">&#128194;</div>Empty directory</div>';
+    return;
+  }
+
+  const table = document.createElement("table");
+  table.innerHTML = '<thead><tr><th>Name</th><th style="width:80px">Size</th><th style="width:80px">Type</th></tr></thead>';
+  const tbody = document.createElement("tbody");
+
+  for (const entry of entries) {
+    const tr = document.createElement("tr");
+    const fullPath = parentDir ? parentDir + "/" + entry.name : entry.name;
+
+    const icon = entry.type === "dir" ? "&#128193;" :
+      entry.ext === ".json" ? "&#128196;" :
+      entry.ext === ".md" ? "&#128214;" :
+      entry.ext === ".sh" ? "&#9881;" :
+      entry.ext === ".js" ? "&#128187;" :
+      entry.ext === ".html" ? "&#127760;" :
+      "&#128462;";
+
+    const nameCell = document.createElement("td");
+    const nameWrapper = document.createElement("div");
+    nameWrapper.className = "entry-name";
+    nameWrapper.innerHTML = '<span class="entry-icon">' + icon + '</span> ';
+
+    const link = document.createElement("a");
+    link.textContent = entry.name;
+
+    if (entry.type === "dir") {
+      link.addEventListener("click", (e) => { e.preventDefault(); loadDir(fullPath); });
+    } else {
+      link.addEventListener("click", async (e) => { e.preventDefault(); await viewFile(fullPath); });
+    }
+
+    nameWrapper.appendChild(link);
+    nameCell.appendChild(nameWrapper);
+
+    const sizeCell = document.createElement("td");
+    sizeCell.className = "entry-size";
+    sizeCell.textContent = entry.type === "dir" ? "—" : "";
+
+    const typeCell = document.createElement("td");
+    if (entry.type === "dir") {
+      typeCell.textContent = "Folder";
+    } else if (entry.ext) {
+      const badge = document.createElement("span");
+      badge.className = "entry-ext";
+      badge.textContent = entry.ext.replace(".", "");
+      typeCell.appendChild(badge);
+    } else {
+      typeCell.textContent = "File";
+    }
+
+    tr.appendChild(nameCell);
+    tr.appendChild(sizeCell);
+    tr.appendChild(typeCell);
+    tbody.appendChild(tr);
+  }
+
+  table.appendChild(tbody);
+  container.innerHTML = "";
+  container.appendChild(table);
+}
+
+async function viewFile(filePath) {
+  closeFilePanel();
+
+  try {
+    const data = await api("/api/storage/file?path=" + encodeURIComponent(filePath));
+
+    const panel = document.createElement("div");
+    panel.className = "panel";
+    panel.id = "file-panel";
+
+    const header = document.createElement("div");
+    header.className = "panel-header";
+    header.innerHTML = '<span>' + escapeHtml(data.name) + ' (' + formatSize(data.size) + ')</span>';
+
+    const closeBtn = document.createElement("button");
+    closeBtn.className = "small-btn";
+    closeBtn.textContent = "Close";
+    closeBtn.addEventListener("click", closeFilePanel);
+    header.appendChild(closeBtn);
+
+    const body = document.createElement("div");
+    body.className = "panel-body";
+
+    if (data.ext === ".json") {
+      try {
+        const parsed = JSON.parse(data.content);
+        body.innerHTML = '<pre>' + syntaxHighlight(JSON.stringify(parsed, null, 2)) + '</pre>';
+      } catch {
+        body.innerHTML = '<pre>' + escapeHtml(data.content) + '</pre>';
+      }
+    } else {
+      body.innerHTML = '<pre>' + escapeHtml(data.content) + '</pre>';
+    }
+
+    panel.appendChild(header);
+    panel.appendChild(body);
+    mainEl.appendChild(panel);
+    panel.scrollIntoView({ behavior: "smooth" });
+  } catch (err) {
+    alert("Failed to read file: " + err.message);
+  }
+}
+
+function closeFilePanel() {
+  const panel = document.getElementById("file-panel");
+  if (panel) panel.remove();
+}
+
+function formatSize(bytes) {
+  if (bytes < 1024) return bytes + " B";
+  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + " KB";
+  return (bytes / (1024 * 1024)).toFixed(1) + " MB";
+}
+
+function escapeHtml(str) {
+  return String(str).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function syntaxHighlight(json) {
+  return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, (match) => {
+    let cls = "json-number";
+    if (/^"/.test(match)) cls = /:$/.test(match) ? "json-key" : "json-string";
+    else if (/true|false/.test(match)) cls = "json-boolean";
+    else if (/null/.test(match)) cls = "json-null";
+    return '<span class="' + cls + '">' + match + '</span>';
+  });
+}
+
+navProjects.addEventListener("click", (e) => {
+  e.preventDefault();
+  renderProjectList();
+});
+
+// Init
+const params = new URLSearchParams(window.location.search);
+const projectId = params.get("projectId");
+loadProjects().then(() => {
+  if (projectId) {
+    const project = storageProjects.find(p => p.id === projectId);
+    if (project) browseProject(project);
+  }
+});
+</script>
+</body>
+</html>

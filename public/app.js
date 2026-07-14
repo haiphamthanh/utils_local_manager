@@ -105,7 +105,11 @@ function renderProjects() {
       if (action === "open") {
         const target = state.projects.find((item) => item.id === projectId);
         if (target) {
-          window.open(target.url, "_blank", "noopener,noreferrer");
+          if (target.type === "storage") {
+            window.open("/storage-explorer.html?projectId=" + encodeURIComponent(target.id), "_blank", "noopener,noreferrer");
+          } else {
+            window.open(target.url, "_blank", "noopener,noreferrer");
+          }
         }
         return;
       }

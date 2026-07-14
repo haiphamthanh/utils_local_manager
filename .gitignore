@@ -3,11 +3,13 @@ node_modules/
 .server.port
 .server.log
 
-resources/utils_learnJP_ronbun/
-resources/utils_learnJP_kotoba/
-resources/utils_daily_assistant/
-resources/utils_daily_assistant_storage/
-resources/utils_learn_by_video/
+# resources/utils_learnJP_ronbun
+# resources/utils_learnJP_kotoba
+# resources/utils_daily_assistant
+# resources/utils_daily_assistant_storage
+# resources/utils_learn_by_video
+# resources/utils_daily_assistant_storage
+resources/
 !resources/settings.json
 
 .DS_Store

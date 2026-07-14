@@ -362,6 +362,7 @@ async function buildProjectSummary(project) {
 
   return {
     id: project.id,
+    type: project.type || null,
     title: project.title,
     subtitle: project.subtitle,
     description: project.description,
@@ -557,6 +558,75 @@ const server = http.createServer(async (req, res) => {
           .trim(),
         project: summary,
       });
+      return;
+    }
+
+    if (req.method === "GET" && requestUrl.pathname === "/api/storage") {
+      const dirPath = requestUrl.searchParams.get("path") || "";
+      try {
+        const resolved = path.resolve(ROOT_DIR, dirPath);
+        if (!resolved.startsWith(ROOT_DIR)) {
+          sendJson(res, 403, { error: "Access denied" });
+          return;
+        }
+        if (!fs.existsSync(resolved) || !fs.statSync(resolved).isDirectory()) {
+          sendJson(res, 404, { error: "Directory not found" });
+          return;
+        }
+        const entries = fs.readdirSync(resolved, { withFileTypes: true })
+          .filter((e) => !e.name.startsWith(".") || e.name === ".gitignore")
+          .map((e) => ({
+            name: e.name,
+            type: e.isDirectory() ? "dir" : "file",
+            ext: e.isFile() ? path.extname(e.name).toLowerCase() : null,
+          }))
+          .sort((a, b) => {
+            if (a.type !== b.type) return a.type === "dir" ? -1 : 1;
+            return a.name.localeCompare(b.name);
+          });
+        const breadcrumbs = dirPath
+          ? dirPath.split("/").filter(Boolean).map((seg, i, arr) => ({
+              name: seg,
+              path: arr.slice(0, i + 1).join("/"),
+            }))
+          : [];
+        sendJson(res, 200, { data: { path: dirPath, entries, breadcrumbs }, error: null });
+      } catch (error) {
+        sendJson(res, 500, { error: error.message });
+      }
+      return;
+    }
+
+    if (req.method === "GET" && requestUrl.pathname === "/api/storage/file") {
+      const filePath = requestUrl.searchParams.get("path") || "";
+      try {
+        const resolved = path.resolve(ROOT_DIR, filePath);
+        if (!resolved.startsWith(ROOT_DIR)) {
+          sendJson(res, 403, { error: "Access denied" });
+          return;
+        }
+        if (!fs.existsSync(resolved)) {
+          sendJson(res, 404, { error: "File not found" });
+          return;
+        }
+        const stat = fs.statSync(resolved);
+        if (stat.size > 1024 * 1024) {
+          sendJson(res, 413, { error: "File too large", size: stat.size });
+          return;
+        }
+        const content = fs.readFileSync(resolved, "utf-8");
+        sendJson(res, 200, {
+          data: {
+            name: path.basename(resolved),
+            ext: path.extname(resolved).toLowerCase(),
+            size: stat.size,
+            content,
+          },
+          error: null,
+        });
+      } catch (error) {
+        sendJson(res, 500, { error: error.message });
+      }
       return;
     }
 
