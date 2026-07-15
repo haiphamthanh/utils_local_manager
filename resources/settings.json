@@ -20,25 +20,6 @@
       "tags": ["Daily lessons", "Structured reading", "Long-form study"]
     },
     {
-      "id": "kotoba",
-      "title": "Roadmap Words",
-      "subtitle": "Study the roadmap, one word at a time",
-      "description": "Fast vocabulary drills with one-word repetition, examples, and study activity tracking.",
-      "repoName": "utils_learnJP_kotoba",
-      "githubRepo": "haiphamthanh/utils_learnJP_kotoba",
-      "repoUrl": "git@github.com:haiphamthanh/utils_learnJP_kotoba.git",
-      "branch": "main",
-      "host": "127.0.0.1",
-      "port": 8000,
-      "url": "http://127.0.0.1:8000/",
-      "resourceDir": "resources/utils_learnJP_kotoba",
-      "scripts": {
-        "start": "start.sh",
-        "stop": "stop.sh"
-      },
-      "tags": ["Single-word drill", "Roadmap review", "Quick recall"]
-    },
-    {
       "id": "daily-assistant",
       "title": "Daily Assistant",
       "subtitle": "Personal URL vault and assistant workspace",
