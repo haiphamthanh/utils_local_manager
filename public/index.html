@@ -37,7 +37,7 @@
       </header>
 
       <main class="workspace">
-        <section class="section-panel">
+        <section class="section-panel" id="projectSection">
           <div class="section-heading">
             <div>
               <p class="eyebrow">Projects</p>
@@ -48,18 +48,27 @@
           <div class="project-grid" id="projectGrid"></div>
         </section>
 
-        <section class="console-panel">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Activity</p>
-              <h2>Latest command output</h2>
+        <aside class="view-panel">
+          <section class="view-section" id="storageSection">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Storage</p>
+                <h2>Storage Explorer</h2>
+              </div>
             </div>
-            <p class="section-copy">
-              Sync, start, stop, and restart actions will stream their latest result here.
-            </p>
-          </div>
-          <pre class="console-output" id="consoleOutput">No actions yet.</pre>
-        </section>
+            <div class="view-content" id="storageContent"></div>
+          </section>
+
+          <section class="view-section" id="consoleSection">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Activity</p>
+                <h2>Latest command output</h2>
+              </div>
+            </div>
+            <pre class="console-output" id="consoleOutput">No actions yet.</pre>
+          </section>
+        </aside>
       </main>
     </div>
 

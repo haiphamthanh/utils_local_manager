@@ -79,7 +79,7 @@
     {
       "id": "storage-explorer",
       "type": "storage",
-      "title": "Storage Explorer",
+      "title": "Daily Storage Explorer",
       "subtitle": "Browse saved items and bookmarks",
       "description": "File-system explorer for the daily assistant storage, listing all saved URLs, notes, and content across platforms.",
       "repoName": "utils_daily_assistant_storage",

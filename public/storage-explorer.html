@@ -261,14 +261,25 @@ function renderBreadcrumbsInto(container, breadcrumbs, currentDir) {
   });
   container.appendChild(projectLink);
 
-  for (const crumb of breadcrumbs) {
+  var filtered = breadcrumbs.filter(function(crumb) {
+    return crumb.name !== "resources";
+  });
+
+  if (project && project.resourceDir && filtered.length > 0 && filtered[0].path === project.resourceDir) {
+    filtered = filtered.slice(1);
+  }
+
+  for (var i = 0; i < filtered.length; i++) {
+    var crumb = filtered[i];
     container.appendChild(document.createTextNode(" / "));
-    const a = document.createElement("a");
+    var a = document.createElement("a");
     a.textContent = crumb.name;
-    a.addEventListener("click", (e) => {
-      e.preventDefault();
-      loadDir(crumb.path);
-    });
+    a.addEventListener("click", (function(path) {
+      return function(e) {
+        e.preventDefault();
+        loadDir(path);
+      };
+    })(crumb.path));
     container.appendChild(a);
   }
 }

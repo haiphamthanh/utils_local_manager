@@ -6,6 +6,7 @@ const state = {
 const elements = {
   projectGrid: document.getElementById("projectGrid"),
   consoleOutput: document.getElementById("consoleOutput"),
+  storageContent: document.getElementById("storageContent"),
   projectCountLabel: document.getElementById("projectCountLabel"),
   runningCountLabel: document.getElementById("runningCountLabel"),
   settingsPathLabel: document.getElementById("settingsPathLabel"),
@@ -32,7 +33,10 @@ function updateMetrics(settingsPath) {
 function renderProjects() {
   elements.projectGrid.innerHTML = "";
 
-  state.projects.forEach((project) => {
+  const storageProjects = state.projects.filter(function(p) { return p.type === "storage"; });
+  const regularProjects = state.projects.filter(function(p) { return p.type !== "storage"; });
+
+  regularProjects.forEach((project) => {
     const card = document.createElement("article");
     card.className = `project-card project-card--${project.id}`;
 
@@ -122,6 +126,38 @@ function renderProjects() {
     });
 
     elements.projectGrid.appendChild(card);
+  });
+
+  if (storageProjects.length > 0) {
+    renderStorageCard(storageProjects);
+  }
+}
+
+function renderStorageCard(storageProjects) {
+  var rows = storageProjects.map(function(p, i) {
+    var desc = (p.description || "").length > 80
+      ? p.description.slice(0, 80) + "..."
+      : (p.description || "");
+    return '<tr>' +
+      '<td>' + (i + 1) + '</td>' +
+      '<td>' + (p.githubRepo || p.repoName || "") + '</td>' +
+      '<td class="storage-desc">' + desc + '</td>' +
+    '</tr>';
+  }).join("");
+
+  elements.storageContent.innerHTML =
+    '<div class="storage-table-wrap">' +
+      '<table class="storage-table">' +
+        '<thead><tr><th>#</th><th>Github</th><th>Description</th></tr></thead>' +
+        '<tbody>' + rows + '</tbody>' +
+      '</table>' +
+    '</div>' +
+    '<div class="button-row" style="margin-top:12px">' +
+      '<button class="primary-btn" type="button" id="openStorageBtn">Open Storage Explorer</button>' +
+    '</div>';
+
+  elements.storageContent.querySelector("#openStorageBtn").addEventListener("click", function() {
+    window.open("/storage-explorer.html", "_blank", "noopener,noreferrer");
   });
 }
 
