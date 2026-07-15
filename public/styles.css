@@ -25,8 +25,16 @@ body {
   font-family: "Avenir Next", "Segoe UI", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at 0% 0%, rgba(122, 170, 138, 0.06), transparent 24%),
-    radial-gradient(circle at 100% 8%, rgba(200, 155, 90, 0.05), transparent 20%),
+    radial-gradient(
+      circle at 0% 0%,
+      rgba(122, 170, 138, 0.06),
+      transparent 24%
+    ),
+    radial-gradient(
+      circle at 100% 8%,
+      rgba(200, 155, 90, 0.05),
+      transparent 20%
+    ),
     linear-gradient(180deg, #221e1a 0%, var(--bg) 55%, var(--bg-deep) 100%);
 }
 
@@ -49,6 +57,10 @@ body {
 .section-panel,
 .view-section {
   border-radius: var(--radius-xl);
+}
+
+.section-panel {
+  padding: 16px;
 }
 
 .hero-panel {
@@ -207,19 +219,23 @@ h3 {
   width: 180px;
   height: 180px;
   border-radius: 999px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.08), transparent 66%);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.08),
+    transparent 66%
+  );
   pointer-events: none;
 }
 
 .project-card--ronbun {
   background:
-    linear-gradient(140deg, rgba(92, 138, 106, 0.12), rgba(30, 27, 23, 0.90)),
+    linear-gradient(140deg, rgba(92, 138, 106, 0.12), rgba(30, 27, 23, 0.9)),
     var(--panel);
 }
 
 .project-card--kotoba {
   background:
-    linear-gradient(140deg, rgba(163, 120, 59, 0.12), rgba(30, 27, 23, 0.90)),
+    linear-gradient(140deg, rgba(163, 120, 59, 0.12), rgba(30, 27, 23, 0.9)),
     var(--panel);
 }
 
@@ -428,7 +444,7 @@ button:disabled {
 }
 
 .storage-table tr:hover td {
-  background: rgba(122, 170, 138, 0.10);
+  background: rgba(122, 170, 138, 0.1);
 }
 
 .storage-desc {
