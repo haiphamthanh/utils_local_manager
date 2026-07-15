@@ -58,6 +58,44 @@
       "tags": ["Video learning", "Japanese", "Subtitles"]
     },
     {
+      "id": "research-orchestra",
+      "title": "Research Orchestra",
+      "subtitle": "Quy trình nghiên cứu và xây dựng paper với AI",
+      "description": "Điều phối toàn bộ hành trình nghiên cứu: xác định mong muốn, khám phá ý tưởng và research gap, đặt câu hỏi, tìm bằng chứng, phản biện và hỗ trợ viết paper.",
+      "repoName": "utils_research-orchestra",
+      "githubRepo": "haiphamthanh/utils_research-orchestra",
+      "repoUrl": "git@github.com:haiphamthanh/utils_research-orchestra.git",
+      "branch": "main",
+      "host": "127.0.0.1",
+      "port": 5100,
+      "url": "http://127.0.0.1:5100/",
+      "resourceDir": "resources/utils_research-orchestra",
+      "scripts": {
+        "start": "start.sh",
+        "stop": "stop.sh"
+      },
+      "tags": ["Research workflow", "AI agents", "Paper writing"]
+    },
+    {
+      "id": "research-tech",
+      "title": "Research Tech",
+      "subtitle": "Kho tri thức học thuật và lộ trình học cá nhân",
+      "description": "Quản lý dữ liệu học tập, tìm kiếm ngữ nghĩa, truy xuất tài liệu và trả lời câu hỏi học thuật dựa trên bằng chứng; xây dựng bài học ngắn gọn, có cơ sở.",
+      "repoName": "utils_research-tech",
+      "githubRepo": "haiphamthanh/utils_research-tech",
+      "repoUrl": "git@github.com:haiphamthanh/utils_research-tech.git",
+      "branch": "main",
+      "host": "127.0.0.1",
+      "port": 5200,
+      "url": "http://127.0.0.1:5200/",
+      "resourceDir": "resources/utils_research-tech",
+      "scripts": {
+        "start": "start.sh",
+        "stop": "stop.sh"
+      },
+      "tags": ["Semantic search", "Evidence-based", "Personal learning"]
+    },
+    {
       "id": "storage-explorer",
       "type": "storage",
       "title": "Daily Storage Explorer",
