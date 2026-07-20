@@ -1,0 +1,3880 @@
+{
+  "runId": "c1749ad1-b8cf-47a6-9ef8-2ab96e642f59",
+  "items": [
+    {
+      "source_key": "catalog:jp-vocab-N1-v476",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v476",
+        "note": "",
+        "term": "若者言葉変遷史研究発表会開催通知発送（わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "若者言葉変遷史研究発表会開催通知発送",
+        "level": "N1",
+        "aliases": [
+          "わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそう • wakamono kotoba hensenshi kenkyuu happyoukai kaisai tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v477",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v477",
+        "note": "",
+        "term": "惑星科学会議発表内容審査通過者発表会（わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかい）",
+        "type": "Từ vựng • N1",
+        "word": "惑星科学会議発表内容審査通過者発表会",
+        "level": "N1",
+        "aliases": [
+          "わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかい • wakusei kagaku kaigi happyou naiyou shinsa tsuukasha happyoukai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v478",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v478",
+        "note": "",
+        "term": "災厄回避訓練実施計画書承認者発表会（さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかい）",
+        "type": "Từ vựng • N1",
+        "word": "災厄回避訓練実施計画書承認者発表会",
+        "level": "N1",
+        "aliases": [
+          "さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかい • saiyaku kaihi kunren jisshi keikakusho shouninsha happyoukai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v479",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v479",
+        "note": "",
+        "term": "技量審査基準書作成者指名状交付式（ぎりょうしんさきじゅんしょさくせいしゃしめいじょうこうふしき）",
+        "type": "Từ vựng • N1",
+        "word": "技量審査基準書作成者指名状交付式",
+        "level": "N1",
+        "aliases": [
+          "ぎりょうしんさきじゅんしょさくせいしゃしめいじょうこうふしき"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ぎりょうしんさきじゅんしょさくせいしゃしめいじょうこうふしき • giryou shinsa kijunsho sakuseisha shimeijou koufushiki",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v480",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v480",
+        "note": "",
+        "term": "煩雑化解消策立案担当者任命書交付式（はんざつかかいしょうさくりつあんたんとうしゃにんめいしょこうふしき）",
+        "type": "Từ vựng • N1",
+        "word": "煩雑化解消策立案担当者任命書交付式",
+        "level": "N1",
+        "aliases": [
+          "はんざつかかいしょうさくりつあんたんとうしゃにんめいしょこうふしき"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "はんざつかかいしょうさくりつあんたんとうしゃにんめいしょこうふしき • hanzatsuka kaishousaku ritsuan tantousha ninmeisho koufushiki",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v481",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v481",
+        "note": "",
+        "term": "話題性戦略立案者育成計画承認書交付式（わだいせいせんりゃくりつあんしゃいくせいけいかくしょうにんしょこうふしき）",
+        "type": "Từ vựng • N1",
+        "word": "話題性戦略立案者育成計画承認書交付式",
+        "level": "N1",
+        "aliases": [
+          "わだいせいせんりゃくりつあんしゃいくせいけいかくしょうにんしょこうふしき"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わだいせいせんりゃくりつあんしゃいくせいけいかくしょうにんしょこうふしき • wadaisei senryaku ritsuan sha ikusei keikaku shouninsho koufushiki",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v482",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v482",
+        "note": "",
+        "term": "和洋折衷建築物設計図面完成報告書提出（わようせっちゅうけんちくぶつせっけいずめんかんせいほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "和洋折衷建築物設計図面完成報告書提出",
+        "level": "N1",
+        "aliases": [
+          "わようせっちゅうけんちくぶつせっけいずめんかんせいほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わようせっちゅうけんちくぶつせっけいずめんかんせいほうこくしょていしゅつ • wayou setchuu kenchikubutsu sekkei zumen kansei houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v483",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v483",
+        "note": "",
+        "term": "和文英訳事業化計画案策定完了報告書提出（わぶんえいやくじぎょうかけいかくあんさくていかんりょうほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "和文英訳事業化計画案策定完了報告書提出",
+        "level": "N1",
+        "aliases": [
+          "わぶんえいやくじぎょうかけいかくあんさくていかんりょうほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わぶんえいやくじぎょうかけいかくあんさくていかんりょうほうこくしょていしゅつ • wabun eiyaku jigyouka keikakuan sakutei kanryou houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v484",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v484",
+        "note": "",
+        "term": "悪天候警報発令基準書作成完了報告書提出（あくてんこうけいほうはつれいきじゅんしょさくせいかんりょうほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "悪天候警報発令基準書作成完了報告書提出",
+        "level": "N1",
+        "aliases": [
+          "あくてんこうけいほうはつれいきじゅんしょさくせいかんりょうほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "あくてんこうけいほうはつれいきじゅんしょさくせいかんりょうほうこくしょていしゅつ • akutenkou keihou hatsurei kijunsho sakusei kanryou houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v485",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v485",
+        "note": "",
+        "term": "割烹料理人育成課程修了者認定書交付式（かっぽうりょうりにんいくせいかていしゅうりょうしゃにんていしょこうふしき）",
+        "type": "Từ vựng • N1",
+        "word": "割烹料理人育成課程修了者認定書交付式",
+        "level": "N1",
+        "aliases": [
+          "かっぽうりょうりにんいくせいかていしゅうりょうしゃにんていしょこうふしき"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "かっぽうりょうりにんいくせいかていしゅうりょうしゃにんていしょこうふしき • kappou ryourinin ikusei katei shuuryousha ninteisho koufushiki",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v486",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v486",
+        "note": "",
+        "term": "湾岸開発計画案審査結果報告書提出者発表（わんがんかいはつけいかくあんしんさけっかほうこくしょていしゅつしゃはっぴょう）",
+        "type": "Từ vựng • N1",
+        "word": "湾岸開発計画案審査結果報告書提出者発表",
+        "level": "N1",
+        "aliases": [
+          "わんがんかいはつけいかくあんしんさけっかほうこくしょていしゅつしゃはっぴょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わんがんかいはつけいかくあんしんさけっかほうこくしょていしゅつしゃはっぴょう • wangan kaihatsu keikakuan shinsa kekka houkokusho teishutsusha happyou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v487",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v487",
+        "note": "",
+        "term": "腕白期教育方針策定者会議結果報告書（わんぱくききょういくほうしんさくていしゃかいぎけっかほうこくしょ）",
+        "type": "Từ vựng • N1",
+        "word": "腕白期教育方針策定者会議結果報告書",
+        "level": "N1",
+        "aliases": [
+          "わんぱくききょういくほうしんさくていしゃかいぎけっかほうこくしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わんぱくききょういくほうしんさくていしゃかいぎけっかほうこくしょ • wanpaku ki kyouiku houshin sakuteisha kaigi kekka houkokusho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v488",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v488",
+        "note": "",
+        "term": "詫状作成代行業者選定結果報告書提出（わびじょうさくせいだいこうぎょうしゃせんていけっかほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "詫状作成代行業者選定結果報告書提出",
+        "level": "N1",
+        "aliases": [
+          "わびじょうさくせいだいこうぎょうしゃせんていけっかほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わびじょうさくせいだいこうぎょうしゃせんていけっかほうこくしょていしゅつ • wabijou sakusei daikou gyousha sentei kekka houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v489",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v489",
+        "note": "",
+        "term": "和室建築技法伝承者育成計画書提出完了（わしつけんちくぎほうでんしょうしゃいくせいけいかくしょていしゅつかんりょう）",
+        "type": "Từ vựng • N1",
+        "word": "和室建築技法伝承者育成計画書提出完了",
+        "level": "N1",
+        "aliases": [
+          "わしつけんちくぎほうでんしょうしゃいくせいけいかくしょていしゅつかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わしつけんちくぎほうでんしょうしゃいくせいけいかくしょていしゅつかんりょう • washitsu kenchiku gihou denshousha ikusei keikakusho teishutsu kanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v490",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v490",
+        "note": "",
+        "term": "童話翻訳事業展開計画案承認書交付式（どうわほんやくじぎょうてんかいけいかくあんしょうにんしょこうふしき）",
+        "type": "Từ vựng • N1",
+        "word": "童話翻訳事業展開計画案承認書交付式",
+        "level": "N1",
+        "aliases": [
+          "どうわほんやくじぎょうてんかいけいかくあんしょうにんしょこうふしき"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "どうわほんやくじぎょうてんかいけいかくあんしょうにんしょこうふしき • douwa honyaku jigyou tenkai keikakuan shouninsho koufushiki",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v491",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v491",
+        "note": "",
+        "term": "割当制度廃止運動推進者募集結果報告書提出（わりあてせいどはいしうんどうすいしんしゃぼしゅうけっかほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "割当制度廃止運動推進者募集結果報告書提出",
+        "level": "N1",
+        "aliases": [
+          "わりあてせいどはいしうんどうすいしんしゃぼしゅうけっかほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりあてせいどはいしうんどうすいしんしゃぼしゅうけっかほうこくしょていしゅつ • wariate seido haishi undou suishinsha boshuu kekka houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v492",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v492",
+        "note": "",
+        "term": "割箸使用削減目標設定者会議結果報告書提出（わりばししようさくげんもくひょうせっていしゃかいぎけっかほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "割箸使用削減目標設定者会議結果報告書提出",
+        "level": "N1",
+        "aliases": [
+          "わりばししようさくげんもくひょうせっていしゃかいぎけっかほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりばししようさくげんもくひょうせっていしゃかいぎけっかほうこくしょていしゅつ • waribashi shiyou sakugen mokuhyou setteisha kaigi kekka houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v493",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v493",
+        "note": "",
+        "term": "割引率見直し案提出者面談結果報告書提出（わりびきりつみなおしあんていしゅつしゃめんだんけっかほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "割引率見直し案提出者面談結果報告書提出",
+        "level": "N1",
+        "aliases": [
+          "わりびきりつみなおしあんていしゅつしゃめんだんけっかほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりびきりつみなおしあんていしゅつしゃめんだんけっかほうこくしょていしゅつ • waribikiritsu minaoshian teishutsusha mendan kekka houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v494",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v494",
+        "note": "",
+        "term": "割振計画書作成代行業者契約完了報告書提出（わりふりけいかくしょさくせいだいこうぎょうしゃけいやくかんりょうほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "割振計画書作成代行業者契約完了報告書提出",
+        "level": "N1",
+        "aliases": [
+          "わりふりけいかくしょさくせいだいこうぎょうしゃけいやくかんりょうほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりふりけいかくしょさくせいだいこうぎょうしゃけいやくかんりょうほうこくしょていしゅつ • warifuri keikakusho sakusei daikou gyousha keiyaku kanryou houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v495",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v495",
+        "note": "",
+        "term": "沸水取扱注意事項確認書提出確認書発行（ふっすいとりあつかいちゅういじこうかくにんしょていしゅつかくにんしょはっこう）",
+        "type": "Từ vựng • N1",
+        "word": "沸水取扱注意事項確認書提出確認書発行",
+        "level": "N1",
+        "aliases": [
+          "ふっすいとりあつかいちゅういじこうかくにんしょていしゅつかくにんしょはっこう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ふっすいとりあつかいちゅういじこうかくにんしょていしゅつかくにんしょはっこう • fussui toriatsukai chuui jikou kakuninsho teishutsu kakuninsho hakkou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v496",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v496",
+        "note": "",
+        "term": "枡形設計図作成者募集結果報告書提出（ますがたせっけいずさくせいしゃぼしゅうけっかほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "枡形設計図作成者募集結果報告書提出",
+        "level": "N1",
+        "aliases": [
+          "ますがたせっけいずさくせいしゃぼしゅうけっかほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますがたせっけいずさくせいしゃぼしゅうけっかほうこくしょていしゅつ • masugata sekkeizu sakuseisha boshuu kekka houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v497",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v497",
+        "note": "",
+        "term": "枡酒提供店舗経営者募集結果報告書提出（ますざけていきょうてんぽけいえいしゃぼしゅうけっかほうこくしょていしゅつ）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供店舗経営者募集結果報告書提出",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうてんぽけいえいしゃぼしゅうけっかほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうてんぽけいえいしゃぼしゅうけっかほうこくしょていしゅつ • masuzake teikyou tenpo keieisha boshuu kekka houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v498",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v498",
+        "note": "",
+        "term": "割当制度廃止運動推進者決定通知発送（わりあてせいどはいしうんどうすいしんしゃけっていつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割当制度廃止運動推進者決定通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりあてせいどはいしうんどうすいしんしゃけっていつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりあてせいどはいしうんどうすいしんしゃけっていつうちはっそう • wariate seido haishi undou suishinsha kettei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v499",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v499",
+        "note": "",
+        "term": "割箸使用削減目標設定者決定通知発送（わりばししようさくげんもくひょうせっていしゃけっていつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割箸使用削減目標設定者決定通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりばししようさくげんもくひょうせっていしゃけっていつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりばししようさくげんもくひょうせっていしゃけっていつうちはっそう • waribashi shiyou sakugen mokuhyou setteisha kettei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v500",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v500",
+        "note": "",
+        "term": "割引率見直し案提出者決定通知発送（わりびきりつみなおしあんていしゅつしゃけっていつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割引率見直し案提出者決定通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりびきりつみなおしあんていしゅつしゃけっていつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりびきりつみなおしあんていしゅつしゃけっていつうちはっそう • waribikiritsu minaoshian teishutsusha kettei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v501",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v501",
+        "note": "",
+        "term": "割振計画書作成代行業者決定通知発送（わりふりけいかくしょさくせいだいこうぎょうしゃけっていつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割振計画書作成代行業者決定通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりふりけいかくしょさくせいだいこうぎょうしゃけっていつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりふりけいかくしょさくせいだいこうぎょうしゃけっていつうちはっそう • warifuri keikakusho sakusei daikou gyousha kettei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v502",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v502",
+        "note": "",
+        "term": "沸水取扱注意事項確認書承認通知発送（ふっすいとりあつかいちゅういじこうかくにんしょしょうにんつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "沸水取扱注意事項確認書承認通知発送",
+        "level": "N1",
+        "aliases": [
+          "ふっすいとりあつかいちゅういじこうかくにんしょしょうにんつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ふっすいとりあつかいちゅういじこうかくにんしょしょうにんつうちはっそう • fussui toriatsukai chuui jikou kakuninsho shounin tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v503",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v503",
+        "note": "",
+        "term": "枡形設計図作成者決定通知発送（ますがたせっけいずさくせいしゃけっていつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "枡形設計図作成者決定通知発送",
+        "level": "N1",
+        "aliases": [
+          "ますがたせっけいずさくせいしゃけっていつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますがたせっけいずさくせいしゃけっていつうちはっそう • masugata sekkeizu sakuseisha kettei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v504",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v504",
+        "note": "",
+        "term": "枡酒提供店舗経営者決定通知発送（ますざけていきょうてんぽけいえいしゃけっていつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供店舗経営者決定通知発送",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうてんぽけいえいしゃけっていつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうてんぽけいえいしゃけっていつうちはっそう • masuzake teikyou tenpo keieisha kettei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v505",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v505",
+        "note": "",
+        "term": "割当制度廃止運動推進者任命通知発送（わりあてせいどはいしうんどうすいしんしゃにんめいつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割当制度廃止運動推進者任命通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりあてせいどはいしうんどうすいしんしゃにんめいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりあてせいどはいしうんどうすいしんしゃにんめいつうちはっそう • wariate seido haishi undou suishinsha ninmei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v506",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v506",
+        "note": "",
+        "term": "割箸使用削減目標設定者任命通知発送（わりばししようさくげんもくひょうせっていしゃにんめいつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割箸使用削減目標設定者任命通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりばししようさくげんもくひょうせっていしゃにんめいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりばししようさくげんもくひょうせっていしゃにんめいつうちはっそう • waribashi shiyou sakugen mokuhyou setteisha ninmei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v507",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v507",
+        "note": "",
+        "term": "割引率見直し案提出者任命通知発送（わりびきりつみなおしあんていしゅつしゃにんめいつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割引率見直し案提出者任命通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりびきりつみなおしあんていしゅつしゃにんめいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりびきりつみなおしあんていしゅつしゃにんめいつうちはっそう • waribikiritsu minaoshian teishutsusha ninmei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v508",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v508",
+        "note": "",
+        "term": "割振計画書作成代行業者任命通知発送（わりふりけいかくしょさくせいだいこうぎょうしゃにんめいつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "割振計画書作成代行業者任命通知発送",
+        "level": "N1",
+        "aliases": [
+          "わりふりけいかくしょさくせいだいこうぎょうしゃにんめいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりふりけいかくしょさくせいだいこうぎょうしゃにんめいつうちはっそう • warifuri keikakusho sakusei daikou gyousha ninmei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v509",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v509",
+        "note": "",
+        "term": "沸水取扱注意事項確認書発行通知発送（ふっすいとりあつかいちゅういじこうかくにんしょはっこうつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "沸水取扱注意事項確認書発行通知発送",
+        "level": "N1",
+        "aliases": [
+          "ふっすいとりあつかいちゅういじこうかくにんしょはっこうつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ふっすいとりあつかいちゅういじこうかくにんしょはっこうつうちはっそう • fussui toriatsukai chuui jikou kakuninsho hakkou tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v510",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v510",
+        "note": "",
+        "term": "枡形設計図作成者任命通知発送（ますがたせっけいずさくせいしゃにんめいつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "枡形設計図作成者任命通知発送",
+        "level": "N1",
+        "aliases": [
+          "ますがたせっけいずさくせいしゃにんめいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますがたせっけいずさくせいしゃにんめいつうちはっそう • masugata sekkeizu sakuseisha ninmei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v511",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v511",
+        "note": "",
+        "term": "枡酒提供店舗経営者任命通知発送（ますざけていきょうてんぽけいえいしゃにんめいつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供店舗経営者任命通知発送",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうてんぽけいえいしゃにんめいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうてんぽけいえいしゃにんめいつうちはっそう • masuzake teikyou tenpo keieisha ninmei tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v512",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v512",
+        "note": "",
+        "term": "割当制度廃止運動推進者研修修了証（わりあてせいどはいしうんどうすいしんしゃけんしゅうしゅうりょうしょう）",
+        "type": "Từ vựng • N1",
+        "word": "割当制度廃止運動推進者研修修了証",
+        "level": "N1",
+        "aliases": [
+          "わりあてせいどはいしうんどうすいしんしゃけんしゅうしゅうりょうしょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりあてせいどはいしうんどうすいしんしゃけんしゅうしゅうりょうしょう • wariate seido haishi undou suishinsha kenshuu shuuryoushou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v513",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v513",
+        "note": "",
+        "term": "割箸使用削減目標設定者研修修了証（わりばししようさくげんもくひょうせっていしゃけんしゅうしゅうりょうしょう）",
+        "type": "Từ vựng • N1",
+        "word": "割箸使用削減目標設定者研修修了証",
+        "level": "N1",
+        "aliases": [
+          "わりばししようさくげんもくひょうせっていしゃけんしゅうしゅうりょうしょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりばししようさくげんもくひょうせっていしゃけんしゅうしゅうりょうしょう • waribashi shiyou sakugen mokuhyou setteisha kenshuu shuuryoushou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v514",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v514",
+        "note": "",
+        "term": "割引率見直し案提出者研修修了証（わりびきりつみなおしあんていしゅつしゃけんしゅうしゅうりょうしょう）",
+        "type": "Từ vựng • N1",
+        "word": "割引率見直し案提出者研修修了証",
+        "level": "N1",
+        "aliases": [
+          "わりびきりつみなおしあんていしゅつしゃけんしゅうしゅうりょうしょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりびきりつみなおしあんていしゅつしゃけんしゅうしゅうりょうしょう • waribikiritsu minaoshian teishutsusha kenshuu shuuryoushou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v515",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v515",
+        "note": "",
+        "term": "割振計画書作成代行業者研修修了証（わりふりけいかくしょさくせいだいこうぎょうしゃけんしゅうしゅうりょうしょう）",
+        "type": "Từ vựng • N1",
+        "word": "割振計画書作成代行業者研修修了証",
+        "level": "N1",
+        "aliases": [
+          "わりふりけいかくしょさくせいだいこうぎょうしゃけんしゅうしゅうりょうしょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりふりけいかくしょさくせいだいこうぎょうしゃけんしゅうしゅうりょうしょう • warifuri keikakusho sakusei daikou gyousha kenshuu shuuryoushou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v516",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v516",
+        "note": "",
+        "term": "枡酒提供文化継承活動報告書提出完了通知（ますざけていきょうぶんかけいしょうかつどうほうこくしょていしゅつかんりょうつうち）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供文化継承活動報告書提出完了通知",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうぶんかけいしょうかつどうほうこくしょていしゅつかんりょうつうち"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうぶんかけいしょうかつどうほうこくしょていしゅつかんりょうつうち • masuzake teikyou bunka keishou katsudou houkokusho teishutsu kanryou tsuuchi",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v517",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v517",
+        "note": "",
+        "term": "賄賂防止対策強化案承認書交付完了通知（わいろぼうしたいさくきょうかあんしょうにんしょこうふかんりょうつうち）",
+        "type": "Từ vựng • N1",
+        "word": "賄賂防止対策強化案承認書交付完了通知",
+        "level": "N1",
+        "aliases": [
+          "わいろぼうしたいさくきょうかあんしょうにんしょこうふかんりょうつうち"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わいろぼうしたいさくきょうかあんしょうにんしょこうふかんりょうつうち • wairo boushi taisaku kyouka an shouninsho koufu kanryou tsuuchi",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v518",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v518",
+        "note": "",
+        "term": "和菓子伝統技法保存活動継続申請書提出受領（わがしでんとうぎほうほぞんかつどうけいぞくしんせいしょていしゅつじゅりょう）",
+        "type": "Từ vựng • N1",
+        "word": "和菓子伝統技法保存活動継続申請書提出受領",
+        "level": "N1",
+        "aliases": [
+          "わがしでんとうぎほうほぞんかつどうけいぞくしんせいしょていしゅつじゅりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わがしでんとうぎほうほぞんかつどうけいぞくしんせいしょていしゅつじゅりょう • wagashi dentou gihou hozon katsudou keizoku shinseisho teishutsu juryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v519",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v519",
+        "note": "",
+        "term": "若者言葉変遷史研究発表会開催通知発送完了（わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそうかんりょう）",
+        "type": "Từ vựng • N1",
+        "word": "若者言葉変遷史研究発表会開催通知発送完了",
+        "level": "N1",
+        "aliases": [
+          "わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそうかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそうかんりょう • wakamono kotoba hensenshi kenkyuu happyoukai kaisai tsuuchi hassou kanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v520",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v520",
+        "note": "",
+        "term": "惑星科学会議発表内容審査通過者発表会開催（わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかいかいさい）",
+        "type": "Từ vựng • N1",
+        "word": "惑星科学会議発表内容審査通過者発表会開催",
+        "level": "N1",
+        "aliases": [
+          "わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかいかいさい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかいかいさい • wakusei kagaku kaigi happyou naiyou shinsa tsuukasha happyoukai kaisai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v521",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v521",
+        "note": "",
+        "term": "災厄回避訓練実施計画書承認者発表会開催（さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかいかいさい）",
+        "type": "Từ vựng • N1",
+        "word": "災厄回避訓練実施計画書承認者発表会開催",
+        "level": "N1",
+        "aliases": [
+          "さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかいかいさい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかいかいさい • saiyaku kaihi kunren jisshi keikakusho shouninsha happyoukai kaisai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v522",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v522",
+        "note": "",
+        "term": "技量審査基準書作成者指名状交付式典（ぎりょうしんさきじゅんしょさくせいしゃしめいじょうこうふしきてん）",
+        "type": "Từ vựng • N1",
+        "word": "技量審査基準書作成者指名状交付式典",
+        "level": "N1",
+        "aliases": [
+          "ぎりょうしんさきじゅんしょさくせいしゃしめいじょうこうふしきてん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ぎりょうしんさきじゅんしょさくせいしゃしめいじょうこうふしきてん • giryou shinsa kijunsho sakuseisha shimeijou koufu shikiten",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v523",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v523",
+        "note": "",
+        "term": "煩雑化解消策立案担当者任命書交付式典（はんざつかかいしょうさくりつあんたんとうしゃにんめいしょこうふしきてん）",
+        "type": "Từ vựng • N1",
+        "word": "煩雑化解消策立案担当者任命書交付式典",
+        "level": "N1",
+        "aliases": [
+          "はんざつかかいしょうさくりつあんたんとうしゃにんめいしょこうふしきてん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "はんざつかかいしょうさくりつあんたんとうしゃにんめいしょこうふしきてん • hanzatsuka kaishousaku ritsuan tantousha ninmeisho koufu shikiten",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v524",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v524",
+        "note": "",
+        "term": "話題性戦略立案者育成計画承認書交付式典（わだいせいせんりゃくりつあんしゃいくせいけいかくしょうにんしょこうふしきてん）",
+        "type": "Từ vựng • N1",
+        "word": "話題性戦略立案者育成計画承認書交付式典",
+        "level": "N1",
+        "aliases": [
+          "わだいせいせんりゃくりつあんしゃいくせいけいかくしょうにんしょこうふしきてん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わだいせいせんりゃくりつあんしゃいくせいけいかくしょうにんしょこうふしきてん • wadaisei senryaku ritsuan sha ikusei keikaku shouninsho koufu shikiten",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v525",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v525",
+        "note": "",
+        "term": "和洋折衷建築物設計図面完成報告書提出受領（わようせっちゅうけんちくぶつせっけいずめんかんせいほうこくしょていしゅつじゅりょう）",
+        "type": "Từ vựng • N1",
+        "word": "和洋折衷建築物設計図面完成報告書提出受領",
+        "level": "N1",
+        "aliases": [
+          "わようせっちゅうけんちくぶつせっけいずめんかんせいほうこくしょていしゅつじゅりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わようせっちゅうけんちくぶつせっけいずめんかんせいほうこくしょていしゅつじゅりょう • wayou setchuu kenchikubutsu sekkei zumen kansei houkokusho teishutsu juryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v626",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v626",
+        "note": "",
+        "term": "枡酒提供店舗経営者募集結果報告書提出完了通知発送（ますざけていきょうてんぽけいえいしゃぼしゅうけっかほうこくしょていしゅつかんりょうつうちはっそう）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供店舗経営者募集結果報告書提出完了通知発送",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうてんぽけいえいしゃぼしゅうけっかほうこくしょていしゅつかんりょうつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうてんぽけいえいしゃぼしゅうけっかほうこくしょていしゅつかんりょうつうちはっそう • masuzaketeikyoutenpokeieishaboshuuke(stop)kahoukokushoteishutsukanryoutsuuchiha(stop)sou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v627",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v627",
+        "note": "",
+        "term": "割当制度廃止運動推進者決定通知発送完了確認書（わりあてせいどはいしうんどうすいしんしゃけっていつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割当制度廃止運動推進者決定通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりあてせいどはいしうんどうすいしんしゃけっていつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりあてせいどはいしうんどうすいしんしゃけっていつうちはっそうかんりょうかくにんしょ • wariateseidohaishiundousuishinshake(stop)teitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v628",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v628",
+        "note": "",
+        "term": "割箸使用削減目標設定者決定通知発送完了確認書（わりばししようさくげんもくひょうせっていしゃけっていつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割箸使用削減目標設定者決定通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりばししようさくげんもくひょうせっていしゃけっていつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりばししようさくげんもくひょうせっていしゃけっていつうちはっそうかんりょうかくにんしょ • waribashishiyousakugenmokuhyouse(stop)teishake(stop)teitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v629",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v629",
+        "note": "",
+        "term": "割引率見直し案提出者決定通知発送完了確認書（わりびきりつみなおしあんていしゅつしゃけっていつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割引率見直し案提出者決定通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりびきりつみなおしあんていしゅつしゃけっていつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりびきりつみなおしあんていしゅつしゃけっていつうちはっそうかんりょうかくにんしょ • waribikiritsuminaoshianteishutsushake(stop)teitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v630",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v630",
+        "note": "",
+        "term": "割振計画書作成代行業者決定通知発送完了確認書（わりふりけいかくしょさくせいだいこうぎょうしゃけっていつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割振計画書作成代行業者決定通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりふりけいかくしょさくせいだいこうぎょうしゃけっていつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりふりけいかくしょさくせいだいこうぎょうしゃけっていつうちはっそうかんりょうかくにんしょ • warifurikeikakushosakuseidaikougyoushake(stop)teitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v631",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v631",
+        "note": "",
+        "term": "沸水取扱注意事項確認書承認通知発送完了確認書（ふっすいとりあつかいちゅういじこうかくにんしょしょうにんつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "沸水取扱注意事項確認書承認通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "ふっすいとりあつかいちゅういじこうかくにんしょしょうにんつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ふっすいとりあつかいちゅういじこうかくにんしょしょうにんつうちはっそうかんりょうかくにんしょ • fu(stop)suitoriatsukaichuuijikoukakuninshoshounintsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v632",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v632",
+        "note": "",
+        "term": "枡形設計図作成者決定通知発送完了確認書（ますがたせっけいずさくせいしゃけっていつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "枡形設計図作成者決定通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "ますがたせっけいずさくせいしゃけっていつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますがたせっけいずさくせいしゃけっていつうちはっそうかんりょうかくにんしょ • masugatase(stop)keizusakuseishake(stop)teitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v633",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v633",
+        "note": "",
+        "term": "枡酒提供店舗経営者決定通知発送完了確認書（ますざけていきょうてんぽけいえいしゃけっていつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供店舗経営者決定通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうてんぽけいえいしゃけっていつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうてんぽけいえいしゃけっていつうちはっそうかんりょうかくにんしょ • masuzaketeikyoutenpokeieishake(stop)teitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v634",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v634",
+        "note": "",
+        "term": "割当制度廃止運動推進者任命通知発送完了確認書（わりあてせいどはいしうんどうすいしんしゃにんめいつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割当制度廃止運動推進者任命通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりあてせいどはいしうんどうすいしんしゃにんめいつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりあてせいどはいしうんどうすいしんしゃにんめいつうちはっそうかんりょうかくにんしょ • wariateseidohaishiundousuishinshaninmeitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v635",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v635",
+        "note": "",
+        "term": "割箸使用削減目標設定者任命通知発送完了確認書（わりばししようさくげんもくひょうせっていしゃにんめいつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割箸使用削減目標設定者任命通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりばししようさくげんもくひょうせっていしゃにんめいつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりばししようさくげんもくひょうせっていしゃにんめいつうちはっそうかんりょうかくにんしょ • waribashishiyousakugenmokuhyouse(stop)teishaninmeitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v636",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v636",
+        "note": "",
+        "term": "割引率見直し案提出者任命通知発送完了確認書（わりびきりつみなおしあんていしゅつしゃにんめいつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割引率見直し案提出者任命通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりびきりつみなおしあんていしゅつしゃにんめいつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりびきりつみなおしあんていしゅつしゃにんめいつうちはっそうかんりょうかくにんしょ • waribikiritsuminaoshianteishutsushaninmeitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v637",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v637",
+        "note": "",
+        "term": "割振計画書作成代行業者任命通知発送完了確認書（わりふりけいかくしょさくせいだいこうぎょうしゃにんめいつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "割振計画書作成代行業者任命通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "わりふりけいかくしょさくせいだいこうぎょうしゃにんめいつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりふりけいかくしょさくせいだいこうぎょうしゃにんめいつうちはっそうかんりょうかくにんしょ • warifurikeikakushosakuseidaikougyoushaninmeitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v638",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v638",
+        "note": "",
+        "term": "沸水取扱注意事項確認書発行通知発送完了確認書（ふっすいとりあつかいちゅういじこうかくにんしょはっこうつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "沸水取扱注意事項確認書発行通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "ふっすいとりあつかいちゅういじこうかくにんしょはっこうつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ふっすいとりあつかいちゅういじこうかくにんしょはっこうつうちはっそうかんりょうかくにんしょ • fu(stop)suitoriatsukaichuuijikoukakuninshoha(stop)koutsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v639",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v639",
+        "note": "",
+        "term": "枡形設計図作成者任命通知発送完了確認書（ますがたせっけいずさくせいしゃにんめいつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "枡形設計図作成者任命通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "ますがたせっけいずさくせいしゃにんめいつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますがたせっけいずさくせいしゃにんめいつうちはっそうかんりょうかくにんしょ • masugatase(stop)keizusakuseishaninmeitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v640",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v640",
+        "note": "",
+        "term": "枡酒提供店舗経営者任命通知発送完了確認書（ますざけていきょうてんぽけいえいしゃにんめいつうちはっそうかんりょうかくにんしょ）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供店舗経営者任命通知発送完了確認書",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうてんぽけいえいしゃにんめいつうちはっそうかんりょうかくにんしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうてんぽけいえいしゃにんめいつうちはっそうかんりょうかくにんしょ • masuzaketeikyoutenpokeieishaninmeitsuuchiha(stop)soukanryoukakuninsho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v641",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v641",
+        "note": "",
+        "term": "割当制度廃止運動推進者研修修了証発行完了確認（わりあてせいどはいしうんどうすいしんしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん）",
+        "type": "Từ vựng • N1",
+        "word": "割当制度廃止運動推進者研修修了証発行完了確認",
+        "level": "N1",
+        "aliases": [
+          "わりあてせいどはいしうんどうすいしんしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりあてせいどはいしうんどうすいしんしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん • wariateseidohaishiundousuishinshakenshuushuuryoushouha(stop)koukanryoukakunin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v642",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v642",
+        "note": "",
+        "term": "割箸使用削減目標設定者研修修了証発行完了確認（わりばししようさくげんもくひょうせっていしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん）",
+        "type": "Từ vựng • N1",
+        "word": "割箸使用削減目標設定者研修修了証発行完了確認",
+        "level": "N1",
+        "aliases": [
+          "わりばししようさくげんもくひょうせっていしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりばししようさくげんもくひょうせっていしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん • waribashishiyousakugenmokuhyouse(stop)teishakenshuushuuryoushouha(stop)koukanryoukakunin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v643",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v643",
+        "note": "",
+        "term": "割引率見直し案提出者研修修了証発行完了確認（わりびきりつみなおしあんていしゅつしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん）",
+        "type": "Từ vựng • N1",
+        "word": "割引率見直し案提出者研修修了証発行完了確認",
+        "level": "N1",
+        "aliases": [
+          "わりびきりつみなおしあんていしゅつしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりびきりつみなおしあんていしゅつしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん • waribikiritsuminaoshianteishutsushakenshuushuuryoushouha(stop)koukanryoukakunin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v644",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v644",
+        "note": "",
+        "term": "割振計画書作成代行業者研修修了証発行完了確認（わりふりけいかくしょさくせいだいこうぎょうしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん）",
+        "type": "Từ vựng • N1",
+        "word": "割振計画書作成代行業者研修修了証発行完了確認",
+        "level": "N1",
+        "aliases": [
+          "わりふりけいかくしょさくせいだいこうぎょうしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わりふりけいかくしょさくせいだいこうぎょうしゃけんしゅうしゅうりょうしょうはっこうかんりょうかくにん • warifurikeikakushosakuseidaikougyoushakenshuushuuryoushouha(stop)koukanryoukakunin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v645",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v645",
+        "note": "",
+        "term": "枡酒提供文化継承活動報告書提出完了通知発送完了確認（ますざけていきょうぶんかけいしょうかつどうほうこくしょていしゅつかんりょうつうちはっそうかんりょうかくにん）",
+        "type": "Từ vựng • N1",
+        "word": "枡酒提供文化継承活動報告書提出完了通知発送完了確認",
+        "level": "N1",
+        "aliases": [
+          "ますざけていきょうぶんかけいしょうかつどうほうこくしょていしゅつかんりょうつうちはっそうかんりょうかくにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "ますざけていきょうぶんかけいしょうかつどうほうこくしょていしゅつかんりょうつうちはっそうかんりょうかくにん • masuzaketeikyoubunkakeishoukatsudouhoukokushoteishutsukanryoutsuuchiha(stop)soukanryoukakunin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v646",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v646",
+        "note": "",
+        "term": "賄賂防止対策強化案承認書交付完了通知発送完了確認（わいろぼうしたいさくきょうかあんしょうにんしょこうふかんりょうつうちはっそうかんりょうかくにん）",
+        "type": "Từ vựng • N1",
+        "word": "賄賂防止対策強化案承認書交付完了通知発送完了確認",
+        "level": "N1",
+        "aliases": [
+          "わいろぼうしたいさくきょうかあんしょうにんしょこうふかんりょうつうちはっそうかんりょうかくにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わいろぼうしたいさくきょうかあんしょうにんしょこうふかんりょうつうちはっそうかんりょうかくにん • wairoboushitaisakukyoukaanshouninshokoufukanryoutsuuchiha(stop)soukanryoukakunin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v647",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v647",
+        "note": "",
+        "term": "和菓子伝統技法保存活動継続申請書提出受領通知発送完了（わがしでんとうぎほうほぞんかつどうけいぞくしんせいしょていしゅつじゅりょうつうちはっそうかんりょう）",
+        "type": "Từ vựng • N1",
+        "word": "和菓子伝統技法保存活動継続申請書提出受領通知発送完了",
+        "level": "N1",
+        "aliases": [
+          "わがしでんとうぎほうほぞんかつどうけいぞくしんせいしょていしゅつじゅりょうつうちはっそうかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わがしでんとうぎほうほぞんかつどうけいぞくしんせいしょていしゅつじゅりょうつうちはっそうかんりょう • wagashidentougihouhozonkatsudoukeizokushinseishoteishutsujuryoutsuuchiha(stop)soukanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v648",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v648",
+        "note": "",
+        "term": "若者言葉変遷史研究発表会開催通知発送完了確認書発行（わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそうかんりょうかくにんしょはっこう）",
+        "type": "Từ vựng • N1",
+        "word": "若者言葉変遷史研究発表会開催通知発送完了確認書発行",
+        "level": "N1",
+        "aliases": [
+          "わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそうかんりょうかくにんしょはっこう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わかものことばへんせんしけんきゅうはっぴょうかいかいさいつうちはっそうかんりょうかくにんしょはっこう • wakamonokotobahensenshikenkyuuha(stop)pyoukaikaisaitsuuchiha(stop)soukanryoukakuninshoha(stop)kou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v649",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v649",
+        "note": "",
+        "term": "惑星科学会議発表内容審査通過者発表会開催通知発送完了（わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかいかいさいつうちはっそうかんりょう）",
+        "type": "Từ vựng • N1",
+        "word": "惑星科学会議発表内容審査通過者発表会開催通知発送完了",
+        "level": "N1",
+        "aliases": [
+          "わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかいかいさいつうちはっそうかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "わくせいかがくかいぎはっぴょうないようしんさつうかしゃはっぴょうかいかいさいつうちはっそうかんりょう • wakuseikagakukaigiha(stop)pyounaiyoushinsatsuukashaha(stop)pyoukaikaisaitsuuchiha(stop)soukanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N1-v650",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N1",
+      "payload": {
+        "id": "jp-vocab-N1-v650",
+        "note": "",
+        "term": "災厄回避訓練実施計画書承認者発表会開催通知発送完了（さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかいかいさいつうちはっそうかんりょう）",
+        "type": "Từ vựng • N1",
+        "word": "災厄回避訓練実施計画書承認者発表会開催通知発送完了",
+        "level": "N1",
+        "aliases": [
+          "さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかいかいさいつうちはっそうかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "さいやくかいひくんれんじっしけいかくしょしょうにんしゃはっぴょうかいかいさいつうちはっそうかんりょう • saiyakukaihikunrenji(stop)shikeikakushoshouninshaha(stop)pyoukaikaisaitsuuchiha(stop)soukanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v426",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v426",
+        "note": "",
+        "term": "宣言文起草者選任会議録作成（せんげんぶんきそうしゃせんにんかいぎろくさくせい）",
+        "type": "Từ vựng • N2",
+        "word": "宣言文起草者選任会議録作成",
+        "level": "N2",
+        "aliases": [
+          "せんげんぶんきそうしゃせんにんかいぎろくさくせい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんげんぶんきそうしゃせんにんかいぎろくさくせい • sengen bun kisou sha sennin kaigiroku sakusei",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v427",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v427",
+        "note": "",
+        "term": "先端技術研究所評判向上策実施（せんたんぎじゅつけんきゅうしょひょうばんこうじょうさくじっし）",
+        "type": "Từ vựng • N2",
+        "word": "先端技術研究所評判向上策実施",
+        "level": "N2",
+        "aliases": [
+          "せんたんぎじゅつけんきゅうしょひょうばんこうじょうさくじっし"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんたんぎじゅつけんきゅうしょひょうばんこうじょうさくじっし • sentan gijutsu kenkyuusho hyouban koujou saku jisshi",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v428",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v428",
+        "note": "",
+        "term": "選手村建設遅延解消策提案受理（せんしゅむらけんせつちえんかいしょうさくていあんじゅり）",
+        "type": "Từ vựng • N2",
+        "word": "選手村建設遅延解消策提案受理",
+        "level": "N2",
+        "aliases": [
+          "せんしゅむらけんせつちえんかいしょうさくていあんじゅり"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんしゅむらけんせつちえんかいしょうさくていあんじゅり • senshumura kensetsu chien kaishousaku teian juri",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v429",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v429",
+        "note": "",
+        "term": "水道管交換遅延解消策提案受理（すいどうかんこうかんちえんかいしょうさくていあんじゅり）",
+        "type": "Từ vựng • N2",
+        "word": "水道管交換遅延解消策提案受理",
+        "level": "N2",
+        "aliases": [
+          "すいどうかんこうかんちえんかいしょうさくていあんじゅり"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "すいどうかんこうかんちえんかいしょうさくていあんじゅり • suidoukan koukan chien kaishousaku teian juri",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v430",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v430",
+        "note": "",
+        "term": "水資源開発遅延解消策提案受理（みずしげんかいはつちえんかいしょうさくていあんじゅり）",
+        "type": "Từ vựng • N2",
+        "word": "水資源開発遅延解消策提案受理",
+        "level": "N2",
+        "aliases": [
+          "みずしげんかいはつちえんかいしょうさくていあんじゅり"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "みずしげんかいはつちえんかいしょうさくていあんじゅり • mizu shigen kaihatsu chien kaishousaku teian juri",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v431",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v431",
+        "note": "",
+        "term": "生活費節約失敗原因分析結果（せいかつひせつやくしっぱいげんいんぶんせきけっか）",
+        "type": "Từ vựng • N2",
+        "word": "生活費節約失敗原因分析結果",
+        "level": "N2",
+        "aliases": [
+          "せいかつひせつやくしっぱいげんいんぶんせきけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せいかつひせつやくしっぱいげんいんぶんせきけっか • seikatsuhi setsuyaku shippai genin bunseki kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v432",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v432",
+        "note": "",
+        "term": "扇子展示会中止発表会見記録（せんすてんじかいちゅうしはっぴょうかいけんきろく）",
+        "type": "Từ vựng • N2",
+        "word": "扇子展示会中止発表会見記録",
+        "level": "N2",
+        "aliases": [
+          "せんすてんじかいちゅうしはっぴょうかいけんきろく"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんすてんじかいちゅうしはっぴょうかいけんきろく • sensu tenjikai chuushi happyou kaiken kiroku",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v433",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v433",
+        "note": "",
+        "term": "戦時体験談出版完了記念会（せんじたいけんだんしゅっぱんかんりょうきねんかい）",
+        "type": "Từ vựng • N2",
+        "word": "戦時体験談出版完了記念会",
+        "level": "N2",
+        "aliases": [
+          "せんじたいけんだんしゅっぱんかんりょうきねんかい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんじたいけんだんしゅっぱんかんりょうきねんかい • senji taikendan shuppan kanryou kinen kai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v434",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v434",
+        "note": "",
+        "term": "宣言文配布遅延解消策実施結果（せんげんぶんはいふちえんかいしょうさくじっしけっか）",
+        "type": "Từ vựng • N2",
+        "word": "宣言文配布遅延解消策実施結果",
+        "level": "N2",
+        "aliases": [
+          "せんげんぶんはいふちえんかいしょうさくじっしけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんげんぶんはいふちえんかいしょうさくじっしけっか • sengenbun haifu chien kaishousaku jisshi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v435",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v435",
+        "note": "",
+        "term": "先端技術者育成遅延解消策実施結果（せんたんぎじゅつしゃいくせいちえんかいしょうさくじっしけっか）",
+        "type": "Từ vựng • N2",
+        "word": "先端技術者育成遅延解消策実施結果",
+        "level": "N2",
+        "aliases": [
+          "せんたんぎじゅつしゃいくせいちえんかいしょうさくじっしけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんたんぎじゅつしゃいくせいちえんかいしょうさくじっしけっか • sentan gijutsusha ikusei chien kaishousaku jisshi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v436",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v436",
+        "note": "",
+        "term": "選手村食事遅延解消策実施結果（せんしゅむらしょくじちえんかいしょうさくじっしけっか）",
+        "type": "Từ vựng • N2",
+        "word": "選手村食事遅延解消策実施結果",
+        "level": "N2",
+        "aliases": [
+          "せんしゅむらしょくじちえんかいしょうさくじっしけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんしゅむらしょくじちえんかいしょうさくじっしけっか • senshumura shokuji chien kaishousaku jisshi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v437",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v437",
+        "note": "",
+        "term": "水道管破裂発生原因調査報告書（すいどうかんはれつはっせいげんいんちょうさほうこくしょ）",
+        "type": "Từ vựng • N2",
+        "word": "水道管破裂発生原因調査報告書",
+        "level": "N2",
+        "aliases": [
+          "すいどうかんはれつはっせいげんいんちょうさほうこくしょ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "すいどうかんはれつはっせいげんいんちょうさほうこくしょ • suidoukan haretsu hassei genin chousa houkokusho",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v438",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v438",
+        "note": "",
+        "term": "水資源保護政策立案者会議録（みずしげんほごせいさくりつあんしゃかいぎろく）",
+        "type": "Từ vựng • N2",
+        "word": "水資源保護政策立案者会議録",
+        "level": "N2",
+        "aliases": [
+          "みずしげんほごせいさくりつあんしゃかいぎろく"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "みずしげんほごせいさくりつあんしゃかいぎろく • mizu shigen hogo seisaku ritsuan sha kaigiroku",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v439",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v439",
+        "note": "",
+        "term": "生活費管理徹底計画書作成完了（せいかつひかんりてっていけいかくしょさくせいかんりょう）",
+        "type": "Từ vựng • N2",
+        "word": "生活費管理徹底計画書作成完了",
+        "level": "N2",
+        "aliases": [
+          "せいかつひかんりてっていけいかくしょさくせいかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せいかつひかんりてっていけいかくしょさくせいかんりょう • seikatsuhi kanri tettei keikakusho sakusei kanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v440",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v440",
+        "note": "",
+        "term": "扇子製作技術者資格試験対策講座開講（せんすせいさくぎじゅつしゃしかくしけんたいさくこうざかいこう）",
+        "type": "Từ vựng • N2",
+        "word": "扇子製作技術者資格試験対策講座開講",
+        "level": "N2",
+        "aliases": [
+          "せんすせいさくぎじゅつしゃしかくしけんたいさくこうざかいこう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんすせいさくぎじゅつしゃしかくしけんたいさくこうざかいこう • sensu seisaku gijutsusha shikaku shiken taisaku kouza kaikou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v441",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v441",
+        "note": "",
+        "term": "戦時資料保存状態調査報告書提出完了（せんじしりょうほぞんじょうたいちょうさほうこくしょていしゅつかんりょう）",
+        "type": "Từ vựng • N2",
+        "word": "戦時資料保存状態調査報告書提出完了",
+        "level": "N2",
+        "aliases": [
+          "せんじしりょうほぞんじょうたいちょうさほうこくしょていしゅつかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんじしりょうほぞんじょうたいちょうさほうこくしょていしゅつかんりょう • senji shiryou hozon joutai chousa houkokusho teishutsu kanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v442",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v442",
+        "note": "",
+        "term": "宣言文起草遅延対策会議開催通知発送（せんげんぶんきそうちえんたいさくかいぎかいさいつうちはっそう）",
+        "type": "Từ vựng • N2",
+        "word": "宣言文起草遅延対策会議開催通知発送",
+        "level": "N2",
+        "aliases": [
+          "せんげんぶんきそうちえんたいさくかいぎかいさいつうちはっそう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんげんぶんきそうちえんたいさくかいぎかいさいつうちはっそう • sengenbun kisou chien taisaku kaigi kaisai tsuuchi hassou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v443",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v443",
+        "note": "",
+        "term": "先端技術研究所閉鎖問題解決策提案受理（せんたんぎじゅつけんきゅうしょへいさもんだいかいけつさくていあんじゅり）",
+        "type": "Từ vựng • N2",
+        "word": "先端技術研究所閉鎖問題解決策提案受理",
+        "level": "N2",
+        "aliases": [
+          "せんたんぎじゅつけんきゅうしょへいさもんだいかいけつさくていあんじゅり"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんたんぎじゅつけんきゅうしょへいさもんだいかいけつさくていあんじゅり • sentan gijutsu kenkyuusho heisa mondai kaiketsusaku teian juri",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v444",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v444",
+        "note": "",
+        "term": "選手村建設完了遅延解消策実施結果（せんしゅむらけんせつかんりょうちえんかいしょうさくじっしけっか）",
+        "type": "Từ vựng • N2",
+        "word": "選手村建設完了遅延解消策実施結果",
+        "level": "N2",
+        "aliases": [
+          "せんしゅむらけんせつかんりょうちえんかいしょうさくじっしけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんしゅむらけんせつかんりょうちえんかいしょうさくじっしけっか • senshumura kensetsu kanryou chien kaishousaku jisshi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v445",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v445",
+        "note": "",
+        "term": "水道管交換完了遅延解消策実施結果（すいどうかんこうかんかんりょうちえんかいしょうさくじっしけっか）",
+        "type": "Từ vựng • N2",
+        "word": "水道管交換完了遅延解消策実施結果",
+        "level": "N2",
+        "aliases": [
+          "すいどうかんこうかんかんりょうちえんかいしょうさくじっしけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "すいどうかんこうかんかんりょうちえんかいしょうさくじっしけっか • suidoukan koukan kanryou chien kaishousaku jisshi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v446",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v446",
+        "note": "",
+        "term": "水資源開発完了遅延解消策実施結果（みずしげんかいはつかんりょうちえんかいしょうさくじっしけっか）",
+        "type": "Từ vựng • N2",
+        "word": "水資源開発完了遅延解消策実施結果",
+        "level": "N2",
+        "aliases": [
+          "みずしげんかいはつかんりょうちえんかいしょうさくじっしけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "みずしげんかいはつかんりょうちえんかいしょうさくじっしけっか • mizu shigen kaihatsu kanryou chien kaishousaku jisshi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v447",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v447",
+        "note": "",
+        "term": "生活費節約成功体験談集出版（せいかつひせつやくせいこうたいけんだんしゅうしゅっぱん）",
+        "type": "Từ vựng • N2",
+        "word": "生活費節約成功体験談集出版",
+        "level": "N2",
+        "aliases": [
+          "せいかつひせつやくせいこうたいけんだんしゅうしゅっぱん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せいかつひせつやくせいこうたいけんだんしゅうしゅっぱん • seikatsuhi setsuyaku seikou taikendan shuu shuppan",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v448",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v448",
+        "note": "",
+        "term": "扇子展示会企画立案者会議開催（せんすてんじかいきかくりつあんしゃかいぎかいさい）",
+        "type": "Từ vựng • N2",
+        "word": "扇子展示会企画立案者会議開催",
+        "level": "N2",
+        "aliases": [
+          "せんすてんじかいきかくりつあんしゃかいぎかいさい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんすてんじかいきかくりつあんしゃかいぎかいさい • sensu tenjikai kikaku ritsuan sha kaigi kaisai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v449",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v449",
+        "note": "",
+        "term": "戦時体験談共有会議開催通知（せんじたいけんだんきょうゆうかいぎかいさいつうち）",
+        "type": "Từ vựng • N2",
+        "word": "戦時体験談共有会議開催通知",
+        "level": "N2",
+        "aliases": [
+          "せんじたいけんだんきょうゆうかいぎかいさいつうち"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんじたいけんだんきょうゆうかいぎかいさいつうち • senji taikendan kyouyuu kaigi kaisai tsuuchi",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v450",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v450",
+        "note": "",
+        "term": "宣言文配布計画策定者会議開催（せんげんぶんはいふけいかくさくていしゃかいぎかいさい）",
+        "type": "Từ vựng • N2",
+        "word": "宣言文配布計画策定者会議開催",
+        "level": "N2",
+        "aliases": [
+          "せんげんぶんはいふけいかくさくていしゃかいぎかいさい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんげんぶんはいふけいかくさくていしゃかいぎかいさい • sengenbun haifu keikaku sakuteisha kaigi kaisai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v451",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v451",
+        "note": "",
+        "term": "先端技術者育成費予算案審議結果（せんたんぎじゅつしゃいくせいひよさんあんしんぎけっか）",
+        "type": "Từ vựng • N2",
+        "word": "先端技術者育成費予算案審議結果",
+        "level": "N2",
+        "aliases": [
+          "せんたんぎじゅつしゃいくせいひよさんあんしんぎけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんたんぎじゅつしゃいくせいひよさんあんしんぎけっか • sentan gijutsusha ikuseihi yosan an shingi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v452",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v452",
+        "note": "",
+        "term": "選手村食事計画変更案審議結果（せんしゅむらしょくじけいかくへんこうあんしんぎけっか）",
+        "type": "Từ vựng • N2",
+        "word": "選手村食事計画変更案審議結果",
+        "level": "N2",
+        "aliases": [
+          "せんしゅむらしょくじけいかくへんこうあんしんぎけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんしゅむらしょくじけいかくへんこうあんしんぎけっか • senshumura shokuji keikaku henkou an shingi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v453",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v453",
+        "note": "",
+        "term": "水道管破裂調査結果報告書提出（すいどうかんはれつちょうさけっかほうこくしょていしゅつ）",
+        "type": "Từ vựng • N2",
+        "word": "水道管破裂調査結果報告書提出",
+        "level": "N2",
+        "aliases": [
+          "すいどうかんはれつちょうさけっかほうこくしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "すいどうかんはれつちょうさけっかほうこくしょていしゅつ • suidoukan haretsu chousa kekka houkokusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v454",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v454",
+        "note": "",
+        "term": "水資源保護費予算要求書提出（みずしげんほごひよさんようきゅうしょていしゅつ）",
+        "type": "Từ vựng • N2",
+        "word": "水資源保護費予算要求書提出",
+        "level": "N2",
+        "aliases": [
+          "みずしげんほごひよさんようきゅうしょていしゅつ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "みずしげんほごひよさんようきゅうしょていしゅつ • mizu shigen hogo hi yosan youkyuusho teishutsu",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v455",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v455",
+        "note": "",
+        "term": "生活費管理改善策評価会議結果（せいかつひかんりかいぜんさくひょうかかいぎけっか）",
+        "type": "Từ vựng • N2",
+        "word": "生活費管理改善策評価会議結果",
+        "level": "N2",
+        "aliases": [
+          "せいかつひかんりかいぜんさくひょうかかいぎけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せいかつひかんりかいぜんさくひょうかかいぎけっか • seikatsuhi kanri kaizensaku hyouka kaigi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v456",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v456",
+        "note": "",
+        "term": "扇子製作技術者育成費予算案審議（せんすせいさくぎじゅつしゃいくせいひよさんあんしんぎ）",
+        "type": "Từ vựng • N2",
+        "word": "扇子製作技術者育成費予算案審議",
+        "level": "N2",
+        "aliases": [
+          "せんすせいさくぎじゅつしゃいくせいひよさんあんしんぎ"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんすせいさくぎじゅつしゃいくせいひよさんあんしんぎ • sensu seisaku gijutsusha ikuseihi yosan an shingi",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v457",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v457",
+        "note": "",
+        "term": "戦時資料研究員採用試験問題作成（せんじしりょうけんきゅういんさいようしけんもんだいさくせい）",
+        "type": "Từ vựng • N2",
+        "word": "戦時資料研究員採用試験問題作成",
+        "level": "N2",
+        "aliases": [
+          "せんじしりょうけんきゅういんさいようしけんもんだいさくせい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんじしりょうけんきゅういんさいようしけんもんだいさくせい • senji shiryou kenkyuuin saiyou shiken mondai sakusei",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v458",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v458",
+        "note": "",
+        "term": "宣言文起草者選任会議録公開（せんげんぶんきそうしゃせんにんかいぎろくこうかい）",
+        "type": "Từ vựng • N2",
+        "word": "宣言文起草者選任会議録公開",
+        "level": "N2",
+        "aliases": [
+          "せんげんぶんきそうしゃせんにんかいぎろくこうかい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんげんぶんきそうしゃせんにんかいぎろくこうかい • sengenbun kisou sha sennin kaigiroku koukai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v459",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v459",
+        "note": "",
+        "term": "先端技術研究所評判向上策実施結果（せんたんぎじゅつけんきゅうしょひょうばんこうじょうさくじっしけっか）",
+        "type": "Từ vựng • N2",
+        "word": "先端技術研究所評判向上策実施結果",
+        "level": "N2",
+        "aliases": [
+          "せんたんぎじゅつけんきゅうしょひょうばんこうじょうさくじっしけっか"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんたんぎじゅつけんきゅうしょひょうばんこうじょうさくじっしけっか • sentan gijutsu kenkyuusho hyouban koujousaku jisshi kekka",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v460",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v460",
+        "note": "",
+        "term": "選手村建設遅延解消策提案承認（せんしゅむらけんせつちえんかいしょうさくていあんしょうにん）",
+        "type": "Từ vựng • N2",
+        "word": "選手村建設遅延解消策提案承認",
+        "level": "N2",
+        "aliases": [
+          "せんしゅむらけんせつちえんかいしょうさくていあんしょうにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんしゅむらけんせつちえんかいしょうさくていあんしょうにん • senshumura kensetsu chien kaishousaku teian shounin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v461",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v461",
+        "note": "",
+        "term": "水道管交換遅延解消策提案承認（すいどうかんこうかんちえんかいしょうさくていあんしょうにん）",
+        "type": "Từ vựng • N2",
+        "word": "水道管交換遅延解消策提案承認",
+        "level": "N2",
+        "aliases": [
+          "すいどうかんこうかんちえんかいしょうさくていあんしょうにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "すいどうかんこうかんちえんかいしょうさくていあんしょうにん • suidoukan koukan chien kaishousaku teian shounin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v462",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v462",
+        "note": "",
+        "term": "水資源開発遅延解消策提案承認（みずしげんかいはつちえんかいしょうさくていあんしょうにん）",
+        "type": "Từ vựng • N2",
+        "word": "水資源開発遅延解消策提案承認",
+        "level": "N2",
+        "aliases": [
+          "みずしげんかいはつちえんかいしょうさくていあんしょうにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "みずしげんかいはつちえんかいしょうさくていあんしょうにん • mizu shigen kaihatsu chien kaishousaku teian shounin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v463",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v463",
+        "note": "",
+        "term": "生活費節約失敗原因分析結果公表（せいかつひせつやくしっぱいげんいんぶんせきけっかこうひょう）",
+        "type": "Từ vựng • N2",
+        "word": "生活費節約失敗原因分析結果公表",
+        "level": "N2",
+        "aliases": [
+          "せいかつひせつやくしっぱいげんいんぶんせきけっかこうひょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せいかつひせつやくしっぱいげんいんぶんせきけっかこうひょう • seikatsuhi setsuyaku shippai genin bunseki kekka kouhyou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v464",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v464",
+        "note": "",
+        "term": "扇子展示会中止発表会見記録公開（せんすてんじかいちゅうしはっぴょうかいけんきろくこうかい）",
+        "type": "Từ vựng • N2",
+        "word": "扇子展示会中止発表会見記録公開",
+        "level": "N2",
+        "aliases": [
+          "せんすてんじかいちゅうしはっぴょうかいけんきろくこうかい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんすてんじかいちゅうしはっぴょうかいけんきろくこうかい • sensu tenjikai chuushi happyou kaiken kiroku koukai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v465",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v465",
+        "note": "",
+        "term": "戦時体験談出版完了記念会開催（せんじたいけんだんしゅっぱんかんりょうきねんかいかいさい）",
+        "type": "Từ vựng • N2",
+        "word": "戦時体験談出版完了記念会開催",
+        "level": "N2",
+        "aliases": [
+          "せんじたいけんだんしゅっぱんかんりょうきねんかいかいさい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんじたいけんだんしゅっぱんかんりょうきねんかいかいさい • senji taikendan shuppan kanryou kinen kai kaisai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v466",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v466",
+        "note": "",
+        "term": "宣言文配布遅延解消策実施結果報告（せんげんぶんはいふちえんかいしょうさくじっしけっかほうこく）",
+        "type": "Từ vựng • N2",
+        "word": "宣言文配布遅延解消策実施結果報告",
+        "level": "N2",
+        "aliases": [
+          "せんげんぶんはいふちえんかいしょうさくじっしけっかほうこく"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんげんぶんはいふちえんかいしょうさくじっしけっかほうこく • sengenbun haifu chien kaishousaku jisshi kekka houkoku",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v467",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v467",
+        "note": "",
+        "term": "先端技術者育成遅延解消策実施結果報告（せんたんぎじゅつしゃいくせいちえんかいしょうさくじっしけっかほうこく）",
+        "type": "Từ vựng • N2",
+        "word": "先端技術者育成遅延解消策実施結果報告",
+        "level": "N2",
+        "aliases": [
+          "せんたんぎじゅつしゃいくせいちえんかいしょうさくじっしけっかほうこく"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんたんぎじゅつしゃいくせいちえんかいしょうさくじっしけっかほうこく • sentan gijutsusha ikusei chien kaishousaku jisshi kekka houkoku",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v468",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v468",
+        "note": "",
+        "term": "選手村食事遅延解消策実施結果報告（せんしゅむらしょくじちえんかいしょうさくじっしけっかほうこく）",
+        "type": "Từ vựng • N2",
+        "word": "選手村食事遅延解消策実施結果報告",
+        "level": "N2",
+        "aliases": [
+          "せんしゅむらしょくじちえんかいしょうさくじっしけっかほうこく"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんしゅむらしょくじちえんかいしょうさくじっしけっかほうこく • senshumura shokuji chien kaishousaku jisshi kekka houkoku",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v469",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v469",
+        "note": "",
+        "term": "水道管破裂発生原因調査報告書公開（すいどうかんはれつはっせいげんいんちょうさほうこくしょこうかい）",
+        "type": "Từ vựng • N2",
+        "word": "水道管破裂発生原因調査報告書公開",
+        "level": "N2",
+        "aliases": [
+          "すいどうかんはれつはっせいげんいんちょうさほうこくしょこうかい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "すいどうかんはれつはっせいげんいんちょうさほうこくしょこうかい • suidoukan haretsu hassei genin chousa houkokusho koukai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v470",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v470",
+        "note": "",
+        "term": "水資源保護政策立案者会議録公開（みずしげんほごせいさくりつあんしゃかいぎろくこうかい）",
+        "type": "Từ vựng • N2",
+        "word": "水資源保護政策立案者会議録公開",
+        "level": "N2",
+        "aliases": [
+          "みずしげんほごせいさくりつあんしゃかいぎろくこうかい"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "みずしげんほごせいさくりつあんしゃかいぎろくこうかい • mizu shigen hogo seisaku ritsuan sha kaigiroku koukai",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v471",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v471",
+        "note": "",
+        "term": "生活費管理徹底計画書作成完了報告（せいかつひかんりてっていけいかくしょさくせいかんりょうほうこく）",
+        "type": "Từ vựng • N2",
+        "word": "生活費管理徹底計画書作成完了報告",
+        "level": "N2",
+        "aliases": [
+          "せいかつひかんりてっていけいかくしょさくせいかんりょうほうこく"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せいかつひかんりてっていけいかくしょさくせいかんりょうほうこく • seikatsuhi kanri tettei keikakusho sakusei kanryou houkoku",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v472",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v472",
+        "note": "",
+        "term": "扇子製作技術者資格試験対策講座開講式（せんすせいさくぎじゅつしゃしかくしけんたいさくこうざかいこうしき）",
+        "type": "Từ vựng • N2",
+        "word": "扇子製作技術者資格試験対策講座開講式",
+        "level": "N2",
+        "aliases": [
+          "せんすせいさくぎじゅつしゃしかくしけんたいさくこうざかいこうしき"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんすせいさくぎじゅつしゃしかくしけんたいさくこうざかいこうしき • sensu seisaku gijutsusha shikaku shiken taisaku kouza kaikoushiki",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v473",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v473",
+        "note": "",
+        "term": "戦時資料保存状態調査報告書提出完了確認（せんじしりょうほぞんじょうたいちょうさほうこくしょていしゅつかんりょうかくにん）",
+        "type": "Từ vựng • N2",
+        "word": "戦時資料保存状態調査報告書提出完了確認",
+        "level": "N2",
+        "aliases": [
+          "せんじしりょうほぞんじょうたいちょうさほうこくしょていしゅつかんりょうかくにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんじしりょうほぞんじょうたいちょうさほうこくしょていしゅつかんりょうかくにん • senji shiryou hozon joutai chousa houkokusho teishutsu kanryou kakunin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v474",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v474",
+        "note": "",
+        "term": "宣言文起草遅延対策会議開催通知発送完了（せんげんぶんきそうちえんたいさくかいぎかいさいつうちはっそうかんりょう）",
+        "type": "Từ vựng • N2",
+        "word": "宣言文起草遅延対策会議開催通知発送完了",
+        "level": "N2",
+        "aliases": [
+          "せんげんぶんきそうちえんたいさくかいぎかいさいつうちはっそうかんりょう"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんげんぶんきそうちえんたいさくかいぎかいさいつうちはっそうかんりょう • sengenbun kisou chien taisaku kaigi kaisai tsuuchi hassou kanryou",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    },
+    {
+      "source_key": "catalog:jp-vocab-N2-v475",
+      "domain": "catalogs",
+      "mode": "japanese",
+      "level": "N2",
+      "payload": {
+        "id": "jp-vocab-N2-v475",
+        "note": "",
+        "term": "先端技術研究所閉鎖問題解決策提案承認（せんたんぎじゅつけんきゅうしょへいさもんだいかいけつさくていあんしょうにん）",
+        "type": "Từ vựng • N2",
+        "word": "先端技術研究所閉鎖問題解決策提案承認",
+        "level": "N2",
+        "aliases": [
+          "せんたんぎじゅつけんきゅうしょへいさもんだいかいけつさくていあんしょうにん"
+        ],
+        "example": "",
+        "grammar": false,
+        "meaning": "",
+        "reading": "せんたんぎじゅつけんきゅうしょへいさもんだいかいけつさくていあんしょうにん • sentan gijutsu kenkyuusho heisa mondai kaiketsusaku teian shounin",
+        "category": "vocabulary",
+        "exampleVi": "",
+        "noteLabel": "Ghi nhớ nhanh",
+        "noteShort": "",
+        "noteTitle": ""
+      },
+      "errors": [
+        "Missing meaning",
+        "Missing example"
+      ],
+      "attempts": 0
+    }
+  ]
+}
