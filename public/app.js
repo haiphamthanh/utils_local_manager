@@ -1,6 +1,6 @@
 const state = {
   projects: [],
-  busyProjectId: null
+  busyProjectId: null,
 };
 
 const elements = {
@@ -10,7 +10,9 @@ const elements = {
   projectCountLabel: document.getElementById("projectCountLabel"),
   runningCountLabel: document.getElementById("runningCountLabel"),
   settingsPathLabel: document.getElementById("settingsPathLabel"),
-  refreshAllBtn: document.getElementById("refreshAllBtn")
+  refreshAllBtn: document.getElementById("refreshAllBtn"),
+  portStopInput: document.getElementById("portStopInput"),
+  stopPortBtn: document.getElementById("stopPortBtn"),
 };
 
 function formatHealth(project) {
@@ -24,7 +26,9 @@ function setConsoleOutput(text) {
 }
 
 function updateMetrics(settingsPath) {
-  const runningCount = state.projects.filter((project) => project.health.running).length;
+  const runningCount = state.projects.filter(
+    (project) => project.health.running,
+  ).length;
   elements.projectCountLabel.textContent = String(state.projects.length);
   elements.runningCountLabel.textContent = String(runningCount);
   elements.settingsPathLabel.textContent = settingsPath;
@@ -33,8 +37,12 @@ function updateMetrics(settingsPath) {
 function renderProjects() {
   elements.projectGrid.innerHTML = "";
 
-  const storageProjects = state.projects.filter(function(p) { return p.type === "storage"; });
-  const regularProjects = state.projects.filter(function(p) { return p.type !== "storage"; });
+  const storageProjects = state.projects.filter(function (p) {
+    return p.type === "storage";
+  });
+  const regularProjects = state.projects.filter(function (p) {
+    return p.type !== "storage";
+  });
 
   regularProjects.forEach((project) => {
     const card = document.createElement("article");
@@ -110,7 +118,12 @@ function renderProjects() {
         const target = state.projects.find((item) => item.id === projectId);
         if (target) {
           if (target.type === "storage") {
-            window.open("/storage-explorer.html?projectId=" + encodeURIComponent(target.id), "_blank", "noopener,noreferrer");
+            window.open(
+              "/storage-explorer.html?projectId=" +
+                encodeURIComponent(target.id),
+              "_blank",
+              "noopener,noreferrer",
+            );
           } else {
             window.open(target.url, "_blank", "noopener,noreferrer");
           }
@@ -134,31 +147,46 @@ function renderProjects() {
 }
 
 function renderStorageCard(storageProjects) {
-  var rows = storageProjects.map(function(p, i) {
-    var desc = (p.description || "").length > 80
-      ? p.description.slice(0, 80) + "..."
-      : (p.description || "");
-    return '<tr>' +
-      '<td>' + (i + 1) + '</td>' +
-      '<td>' + (p.githubRepo || p.repoName || "") + '</td>' +
-      '<td class="storage-desc">' + desc + '</td>' +
-    '</tr>';
-  }).join("");
+  var rows = storageProjects
+    .map(function (p, i) {
+      var desc =
+        (p.description || "").length > 80
+          ? p.description.slice(0, 80) + "..."
+          : p.description || "";
+      return (
+        "<tr>" +
+        "<td>" +
+        (i + 1) +
+        "</td>" +
+        "<td>" +
+        (p.githubRepo || p.repoName || "") +
+        "</td>" +
+        '<td class="storage-desc">' +
+        desc +
+        "</td>" +
+        "</tr>"
+      );
+    })
+    .join("");
 
   elements.storageContent.innerHTML =
     '<div class="storage-table-wrap">' +
-      '<table class="storage-table">' +
-        '<thead><tr><th>#</th><th>Github</th><th>Description</th></tr></thead>' +
-        '<tbody>' + rows + '</tbody>' +
-      '</table>' +
-    '</div>' +
+    '<table class="storage-table">' +
+    "<thead><tr><th>#</th><th>Github</th><th>Description</th></tr></thead>" +
+    "<tbody>" +
+    rows +
+    "</tbody>" +
+    "</table>" +
+    "</div>" +
     '<div class="button-row" style="margin-top:12px">' +
-      '<button class="primary-btn" type="button" id="openStorageBtn">Open Storage Explorer</button>' +
-    '</div>';
+    '<button class="primary-btn" type="button" id="openStorageBtn">Open Storage Explorer</button>' +
+    "</div>";
 
-  elements.storageContent.querySelector("#openStorageBtn").addEventListener("click", function() {
-    window.open("/storage-explorer.html", "_blank", "noopener,noreferrer");
-  });
+  elements.storageContent
+    .querySelector("#openStorageBtn")
+    .addEventListener("click", function () {
+      window.open("/storage-explorer.html", "_blank", "noopener,noreferrer");
+    });
 }
 
 async function fetchProjects() {
@@ -178,9 +206,9 @@ async function runProjectAction(projectId, action) {
     const response = await fetch(`/api/projects/${projectId}/actions`, {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify({ action })
+      body: JSON.stringify({ action }),
     });
     const payload = await response.json();
 
@@ -189,7 +217,7 @@ async function runProjectAction(projectId, action) {
     }
 
     state.projects = state.projects.map((project) =>
-      project.id === projectId ? payload.project : project
+      project.id === projectId ? payload.project : project,
     );
 
     setConsoleOutput(payload.output || `${action} completed.`);
@@ -201,8 +229,64 @@ async function runProjectAction(projectId, action) {
   }
 }
 
+function updatePortStopButton() {
+  const rawValue = elements.portStopInput.value.trim();
+  const parsedValue = Number(rawValue);
+  const isValidPort =
+    /^\d+$/.test(rawValue) &&
+    Number.isInteger(parsedValue) &&
+    parsedValue >= 1 &&
+    parsedValue <= 65535;
+  elements.stopPortBtn.disabled = !isValidPort;
+}
+
+async function stopPort() {
+  const rawValue = elements.portStopInput.value.trim();
+  const parsedValue = Number(rawValue);
+  const isValidPort =
+    /^\d+$/.test(rawValue) &&
+    Number.isInteger(parsedValue) &&
+    parsedValue >= 1 &&
+    parsedValue <= 65535;
+
+  if (!isValidPort) {
+    return;
+  }
+
+  const confirmed = window.confirm(`Do you want to stop port ${parsedValue}?`);
+  if (!confirmed) {
+    return;
+  }
+
+  setConsoleOutput(`Stopping port ${parsedValue}...`);
+
+  try {
+    const response = await fetch("/api/ports/stop", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ port: parsedValue }),
+    });
+    const payload = await response.json();
+
+    if (!response.ok || !payload.ok) {
+      throw new Error(payload.message || `Failed to stop port ${parsedValue}`);
+    }
+
+    elements.portStopInput.value = "";
+    updatePortStopButton();
+    setConsoleOutput(payload.message || `Stopped port ${parsedValue}.`);
+  } catch (error) {
+    setConsoleOutput(error.message || `Failed to stop port ${parsedValue}.`);
+  }
+}
+
 async function bootstrap() {
   elements.refreshAllBtn.addEventListener("click", fetchProjects);
+  elements.portStopInput.addEventListener("input", updatePortStopButton);
+  elements.stopPortBtn.addEventListener("click", stopPort);
+  updatePortStopButton();
   await fetchProjects();
 }
 

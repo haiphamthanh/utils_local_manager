@@ -77,6 +77,14 @@ body {
   align-items: stretch;
 }
 
+.hero-side-stack {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+  width: 100%;
+  align-items: start;
+}
+
 .eyebrow,
 .pill,
 .meta-key,
@@ -134,6 +142,49 @@ h3 {
   border-radius: 14px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 900px) {
+  .hero-side-stack {
+    grid-template-columns: 1fr;
+  }
+}
+
+.port-stop-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid rgba(200, 180, 155, 0.08);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.port-stop-label {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.port-stop-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.port-stop-input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid rgba(200, 180, 155, 0.16);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  outline: none;
+}
+
+.port-stop-input:focus {
+  border-color: rgba(122, 170, 138, 0.65);
+  box-shadow: 0 0 0 2px rgba(122, 170, 138, 0.16);
 }
 
 .metrics-row {
@@ -385,9 +436,17 @@ button:disabled {
   color: var(--text);
 }
 
+.danger-btn {
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--danger), #a64d4f);
+  color: #fff;
+}
+
 .secondary-btn:disabled,
 .ghost-btn:disabled,
-.primary-btn:disabled {
+.primary-btn:disabled,
+.danger-btn:disabled {
   opacity: 0.42;
   background: rgba(255, 255, 255, 0.04);
   color: rgba(224, 214, 200, 0.32);

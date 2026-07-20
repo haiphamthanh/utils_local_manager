@@ -561,6 +561,54 @@ const server = http.createServer(async (req, res) => {
       return;
     }
 
+    if (req.method === "POST" && requestUrl.pathname === "/api/ports/stop") {
+      const body = await collectRequestBody(req);
+      const port = Number(body.port);
+
+      if (!Number.isInteger(port) || port < 1 || port > 65535) {
+        sendJson(res, 400, {
+          ok: false,
+          message: "Port must be a valid number between 1 and 65535",
+        });
+        return;
+      }
+
+      const scriptPath = path.join(ROOT_DIR, "stop_port.sh");
+      if (!fs.existsSync(scriptPath)) {
+        sendJson(res, 500, {
+          ok: false,
+          message: "stop_port.sh is missing",
+        });
+        return;
+      }
+
+      const result = await runCommand("bash", [scriptPath, String(port)], {
+        cwd: ROOT_DIR,
+      });
+
+      if (!result.ok) {
+        sendJson(res, 500, {
+          ok: false,
+          message: (
+            result.stderr ||
+            result.stdout ||
+            `Failed to stop port ${port}`
+          ).trim(),
+        });
+        return;
+      }
+
+      sendJson(res, 200, {
+        ok: true,
+        message: (
+          result.stdout ||
+          result.stderr ||
+          `Port ${port} stopped`
+        ).trim(),
+      });
+      return;
+    }
+
     if (req.method === "GET" && requestUrl.pathname === "/api/storage") {
       const dirPath = requestUrl.searchParams.get("path") || "";
       try {
@@ -573,7 +621,8 @@ const server = http.createServer(async (req, res) => {
           sendJson(res, 404, { error: "Directory not found" });
           return;
         }
-        const entries = fs.readdirSync(resolved, { withFileTypes: true })
+        const entries = fs
+          .readdirSync(resolved, { withFileTypes: true })
           .filter((e) => !e.name.startsWith(".") || e.name === ".gitignore")
           .map((e) => ({
             name: e.name,
@@ -585,12 +634,18 @@ const server = http.createServer(async (req, res) => {
             return a.name.localeCompare(b.name);
           });
         const breadcrumbs = dirPath
-          ? dirPath.split("/").filter(Boolean).map((seg, i, arr) => ({
-              name: seg,
-              path: arr.slice(0, i + 1).join("/"),
-            }))
+          ? dirPath
+              .split("/")
+              .filter(Boolean)
+              .map((seg, i, arr) => ({
+                name: seg,
+                path: arr.slice(0, i + 1).join("/"),
+              }))
           : [];
-        sendJson(res, 200, { data: { path: dirPath, entries, breadcrumbs }, error: null });
+        sendJson(res, 200, {
+          data: { path: dirPath, entries, breadcrumbs },
+          error: null,
+        });
       } catch (error) {
         sendJson(res, 500, { error: error.message });
       }

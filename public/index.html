@@ -19,18 +19,46 @@
         </div>
 
         <aside class="hero-side">
-          <div class="metrics-table">
-            <div class="metrics-row">
-              <span class="metric-label">Projects</span>
-              <strong class="metric-value" id="projectCountLabel">0</strong>
+          <div class="hero-side-stack">
+            <div class="port-stop-card">
+              <label class="port-stop-label" for="portStopInput"
+                >Enter the port you want to stop</label
+              >
+              <div class="port-stop-controls">
+                <input
+                  id="portStopInput"
+                  class="port-stop-input"
+                  type="text"
+                  inputmode="numeric"
+                  pattern="[0-9]*"
+                  placeholder="e.g. 3000"
+                />
+                <button
+                  id="stopPortBtn"
+                  class="danger-btn"
+                  type="button"
+                  disabled
+                >
+                  Stop
+                </button>
+              </div>
             </div>
-            <div class="metrics-row">
-              <span class="metric-label">Hosts running</span>
-              <strong class="metric-value" id="runningCountLabel">0</strong>
-            </div>
-            <div class="metrics-row">
-              <span class="metric-label">Settings</span>
-              <strong class="metric-value metric-path" id="settingsPathLabel">resources/settings.json</strong>
+
+            <div class="metrics-table">
+              <div class="metrics-row">
+                <span class="metric-label">Projects</span>
+                <strong class="metric-value" id="projectCountLabel">0</strong>
+              </div>
+              <div class="metrics-row">
+                <span class="metric-label">Hosts running</span>
+                <strong class="metric-value" id="runningCountLabel">0</strong>
+              </div>
+              <div class="metrics-row">
+                <span class="metric-label">Settings</span>
+                <strong class="metric-value metric-path" id="settingsPathLabel"
+                  >resources/settings.json</strong
+                >
+              </div>
             </div>
           </div>
         </aside>
@@ -43,7 +71,13 @@
               <p class="eyebrow">Projects</p>
               <h2>Project Controls</h2>
             </div>
-            <button id="refreshAllBtn" class="secondary-btn refresh-btn" type="button">Refresh statuses</button>
+            <button
+              id="refreshAllBtn"
+              class="secondary-btn refresh-btn"
+              type="button"
+            >
+              Refresh statuses
+            </button>
           </div>
           <div class="project-grid" id="projectGrid"></div>
         </section>
@@ -74,4 +108,4 @@
 
     <script src="/app.js"></script>
   </body>
-  </html>
+</html>
