@@ -297,6 +297,13 @@ h3 {
   align-items: start;
 }
 
+.project-header-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .project-subtitle,
 .project-description,
 .meta-value {
@@ -419,7 +426,8 @@ button:disabled {
 
 .primary-btn,
 .secondary-btn,
-.ghost-btn {
+.ghost-btn,
+.vscode-btn {
   padding: 10px 14px;
   border-radius: 999px;
 }
@@ -430,10 +438,31 @@ button:disabled {
 }
 
 .secondary-btn,
-.ghost-btn {
+.ghost-btn,
+.vscode-btn {
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid var(--line);
   color: var(--text);
+}
+
+.vscode-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.vscode-btn:hover {
+  background: rgba(35, 168, 242, 0.14);
+  border-color: rgba(35, 168, 242, 0.35);
+}
+
+.vscode-icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  fill: #23a8f2;
 }
 
 .danger-btn {
@@ -446,6 +475,7 @@ button:disabled {
 .secondary-btn:disabled,
 .ghost-btn:disabled,
 .primary-btn:disabled,
+.vscode-btn:disabled,
 .danger-btn:disabled {
   opacity: 0.42;
   background: rgba(255, 255, 255, 0.04);
@@ -514,6 +544,11 @@ button:disabled {
   text-overflow: ellipsis;
 }
 
+.storage-actions {
+  width: 1%;
+  white-space: nowrap;
+}
+
 @media (max-width: 1120px) {
   .hero-panel,
   .section-heading,
@@ -562,5 +597,9 @@ button:disabled {
 
   .project-card {
     padding: 14px;
+  }
+
+  .project-header {
+    flex-direction: column;
   }
 }

@@ -496,9 +496,52 @@ async function runProjectScript(project, action) {
   return result;
 }
 
+async function openProjectInVsCode(project) {
+  if (
+    !fileExists(project.resourceDir) ||
+    !fs.statSync(project.resourceDir).isDirectory()
+  ) {
+    throw new Error(`Project directory does not exist: ${project.resourceDir}`);
+  }
+
+  const launchers =
+    process.platform === "darwin"
+      ? [
+          ["open", ["-a", "Visual Studio Code", project.resourceDir]],
+          ["code", ["--reuse-window", project.resourceDir]],
+        ]
+      : process.platform === "win32"
+        ? [
+            ["code.cmd", ["--reuse-window", project.resourceDir]],
+            ["code", ["--reuse-window", project.resourceDir]],
+          ]
+        : [["code", ["--reuse-window", project.resourceDir]]];
+
+  const errors = [];
+  for (const [command, args] of launchers) {
+    const result = await runCommand(command, args, { cwd: project.resourceDir });
+    if (result.ok) {
+      return {
+        ...result,
+        stdout: `Opened ${project.title} in Visual Studio Code.`,
+      };
+    }
+
+    errors.push(result.stderr || result.stdout || result.error || command);
+  }
+
+  throw new Error(
+    `Could not open Visual Studio Code. ${errors.filter(Boolean).join(" ")}`,
+  );
+}
+
 async function performProjectAction(project, action) {
   if (action === "sync") {
     return syncProjectWithGh(project);
+  }
+
+  if (action === "open-vscode") {
+    return openProjectInVsCode(project);
   }
 
   if (action === "start" || action === "stop" || action === "restart") {

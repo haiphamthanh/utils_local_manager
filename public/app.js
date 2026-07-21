@@ -15,6 +15,29 @@ const elements = {
   stopPortBtn: document.getElementById("stopPortBtn"),
 };
 
+const vscodeIcon = `
+  <svg class="vscode-icon" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M17.7 2.4 9.6 9.7 5.1 6.2 2.5 8.4 7 12l-4.5 3.6 2.6 2.2 4.5-3.5 8.1 7.3 3.8-1.9V4.3l-3.8-1.9Zm0 5.3v8.6L12.5 12l5.2-4.3Z" />
+  </svg>
+`;
+
+function vscodeButton(projectId, disabled = false) {
+  return `
+    <button
+      class="vscode-btn"
+      type="button"
+      data-action="open-vscode"
+      data-project-id="${projectId}"
+      aria-label="Open project in Visual Studio Code"
+      title="Open in Visual Studio Code"
+      ${disabled ? "disabled" : ""}
+    >
+      ${vscodeIcon}
+      <span>VS Code</span>
+    </button>
+  `;
+}
+
 function formatHealth(project) {
   return project.health.running
     ? `Running${project.health.statusCode ? ` · ${project.health.statusCode}` : ""}`
@@ -61,7 +84,10 @@ function renderProjects() {
           <h3>${project.title}</h3>
           <p class="project-subtitle">${project.subtitle}</p>
         </div>
-        <button class="primary-btn" type="button" data-action="open" data-project-id="${project.id}" ${!isRunning ? "disabled" : ""}>Open site</button>
+        <div class="project-header-actions">
+          ${vscodeButton(project.id, isBusy)}
+          <button class="primary-btn" type="button" data-action="open" data-project-id="${project.id}" ${!isRunning ? "disabled" : ""}>Open site</button>
+        </div>
       </div>
 
       <p class="project-description">${project.description}</p>
@@ -164,6 +190,9 @@ function renderStorageCard(storageProjects) {
         '<td class="storage-desc">' +
         desc +
         "</td>" +
+        '<td class="storage-actions">' +
+        vscodeButton(p.id, state.busyProjectId === p.id) +
+        "</td>" +
         "</tr>"
       );
     })
@@ -172,7 +201,7 @@ function renderStorageCard(storageProjects) {
   elements.storageContent.innerHTML =
     '<div class="storage-table-wrap">' +
     '<table class="storage-table">' +
-    "<thead><tr><th>#</th><th>Github</th><th>Description</th></tr></thead>" +
+    "<thead><tr><th>#</th><th>Github</th><th>Description</th><th>Editor</th></tr></thead>" +
     "<tbody>" +
     rows +
     "</tbody>" +
@@ -186,6 +215,14 @@ function renderStorageCard(storageProjects) {
     .querySelector("#openStorageBtn")
     .addEventListener("click", function () {
       window.open("/storage-explorer.html", "_blank", "noopener,noreferrer");
+    });
+
+  elements.storageContent
+    .querySelectorAll('[data-action="open-vscode"]')
+    .forEach(function (button) {
+      button.addEventListener("click", function () {
+        runProjectAction(button.dataset.projectId, "open-vscode");
+      });
     });
 }
 
